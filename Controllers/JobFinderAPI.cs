@@ -1,64 +1,73 @@
+using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Models;
+using WebApiProject.Controllers;
+using System.Security.Cryptography.X509Certificates;
+using WebApiProject.Interface;
 
-namespace WebAPIProject.Controllers;
+
+namespace WebApiProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-
 public class JobFinderAPIController : ControllerBase
-{
-    private static List<JobFinderAPI> JobList;
 
-    static JobFinderAPIController(){
-        JobList=new List<JobFinderAPI>{
-            new JobFinderAPI{JobID=111,Location="Jerusalem",JobFieldCategory="programming",Sallery=10000,JobDescription="",PostedDate=DateTime.Now},
-            new JobFinderAPI{JobID=222,Location="Modiin",JobFieldCategory="programming",Sallery=1500,JobDescription="",PostedDate=DateTime.Now}
-        };
+{
+    private IJobFinderService JobFinderService;
+    public JobFinderAPIController(IJobFinderService JobFinderService)
+    {
+        this.JobFinderService = JobFinderService;
     }
 
+
     [HttpGet]
-    public IEnumerable<JobFinderAPI> Get(){
-        return JobList;
+    public IEnumerable<JobFinderAPI> GetAll()
+    {
+        return JobFinderService.GetAll();
+
     }
 
     [HttpGet("{id}")]
-    public ActionResult<JobFinderAPI> Get(int id){
-        var specJob=JobList.FirstOrDefault(j=>j.JobID==id);
-        if(specJob==null)
-            return BadRequest("invalid id");
+    public ActionResult<JobFinderAPI> Get(int id)
+    {
+        var specJob = JobFinderService.Get(id);
+        if (specJob == null)
+            return BadRequest("Oooops,Invalid Id!!!");
         return specJob;
     }
 
     [HttpPost]
-    public ActionResult Post(JobFinderAPI newJob){
-        var nextID=JobList.Max(j=>j.JobID);
-        newJob.JobID=nextID+1;
-        JobList.Add(newJob);
-        return CreatedAtAction(nameof(Post),new{newJobID=newJob.JobID},newJob);
+    public ActionResult Post(JobFinderAPI newJob)
+    {
+        JobFinderService.Post(newJob);
+        return CreatedAtAction(nameof(Post), new { newJobId = newJob.JobID }, newJob);
     }
 
-    [HttpPut ("{id}")]
-    public ActionResult Put(int id,JobFinderAPI newJob){
-        var jobToUpdate=JobList.FirstOrDefault(j=>j.JobID==id);
-        if(jobToUpdate==null)
-            return BadRequest("invalid id");
-        jobToUpdate.JobID=newJob.JobID;
-        jobToUpdate.Location=newJob.Location;
-        jobToUpdate.JobFieldCategory=newJob.JobFieldCategory;
-        jobToUpdate.Sallery=newJob.Sallery;
-        jobToUpdate.JobDescription=newJob.JobDescription;
-        jobToUpdate.PostedDate=newJob.PostedDate;
+    [HttpPut("{id}")]
+    public ActionResult Put(int id, JobFinderAPI newJob)
+    {
+        if (id != newJob.JobID)
+            return BadRequest("Not Valid Id!!!");
+        var jobToUpdate = JobFinderService.Get(id);
+        if (jobToUpdate == null)
+            return BadRequest("Oooops,Invalid Id!!!");
+        JobFinderService.Put(jobToUpdate, newJob);
         return NoContent();
     }
 
-    [HttpDelete ("{id}")]
-    public ActionResult Delete(int id){
-        var jobToDelete=JobList.FirstOrDefault(j=>j.JobID==id);
-        if(jobToDelete==null)
-            return BadRequest("invalid id");
-        JobList.Remove(jobToDelete);
+    [HttpDelete("{id}")]
+    public ActionResult Delete(int id)
+    {
+        var jobToDelete = JobFinderService.Get(id);
+        if (jobToDelete == null)
+            return BadRequest("Oooops, Invalid Id!!!");
+
+        JobFinderService.Delete(jobToDelete);
         return Ok(jobToDelete);
+
+
     }
 
+
 }
+
