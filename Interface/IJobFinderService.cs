@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Models;
 
-namespace WebApiProject.Interface
+namespace WebAPIProject.Interface
 {
 
     public interface IJobFinderService

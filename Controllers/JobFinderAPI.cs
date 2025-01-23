@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Models;
-using WebApiProject.Controllers;
+using WebAPIProject.Controllers;
 using System.Security.Cryptography.X509Certificates;
-using WebApiProject.Interface;
+using WebAPIProject.Interface;
 
 
-namespace WebApiProject.Controllers;
+namespace WebAPIProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]

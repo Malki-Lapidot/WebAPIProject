@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using WebApiProject.Interface;
+using WebAPIProject.Interface;
 using WebAPIProject.Models;
 
 
-namespace WebApiProject.services
+namespace WebAPIProject.services
 {
 
     public class JobFinderService : IJobFinderService
@@ -14,7 +14,7 @@ namespace WebApiProject.services
             JobList = new List<JobFinderAPI>
         {
 
-            new JobFinderAPI{JobID=111,Location="Jerusalem",JobFieldCategory="Programming",Sallery=19000,JobDescription="",PostedDate=DateTime.Now},
+            new JobFinderAPI{JobID=111,Location="Jerusalem",JobFieldCategory="Programming",Sallery=19000,JobDescription="amazing job",PostedDate=DateTime.Now},
             new JobFinderAPI{JobID=222,Location="Modi'n",JobFieldCategory="Programming",Sallery=20000,JobDescription="",PostedDate=DateTime.Now}
 
         };
