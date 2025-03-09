@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobFinderAPI</title>
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="../Css/style.css">
 </head>
+
 <body>
     <h1>Job Finder</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" onsubmit="addItem()">
-        <input type="text" id="Location" placeholder="job location"><br>
-        <input type="text" id="JobFieldCategory" placeholder="job Field Category"><br>
-        <input type="number" id="Sallery" placeholder="job Sallery"><br>
-        <textarea id="JobDescription" placeholder="job Description"></textarea><br>
-        <input type="datetime" id="PostedDate" placeholder="job Posted Date"><br>
-        <input type="submit" value="Add">
-    </form>
+    <a href="../Html/login.html">Login</a>
+    <button id="logOut" onclick="logOut()">logOut</button>
+    <a id="userLink" href="../Html/user.html">user</a>
+
+    <div id="addForm">
+        <h3>Add</h3>
+        <form action="javascript:void(0);" onsubmit="addItem()">
+            <input type="text" id="Location" placeholder="job location"><br>
+            <input type="text" id="JobFieldCategory" placeholder="job Field Category"><br>
+            <input type="number" id="Sallery" placeholder="job Sallery"><br>
+            <textarea id="JobDescription" placeholder="job Description"></textarea><br>
+            <input type="datetime" id="PostedDate" placeholder="job Posted Date"><br>
+            <input type="submit" value="Add">
+        </form>
+    </div>
 
 
     <div id="editForm">
@@ -48,10 +56,13 @@
         <tbody id="Jobs"></tbody>
     </table>
 
-    <script src="./Js/app.js" asp-append-version="true"></script>
+
+    <script src="../Js/app.js" asp-append-version="true"></script>
+    <script src="../Js/login.js" asp-append-version="true"></script>
     <script>
         getItems();
     </script>
 
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 namespace WebAPIProject.Models;
 
-public class JobFinderAPI
+public class Job
 {
     public int JobID { get; set; }
 
@@ -13,4 +13,6 @@ public class JobFinderAPI
     public string? JobDescription { get; set; }
 
     public DateTime PostedDate { get; set; }
+
+    public string? CreatedBy{ get; set; }
 }

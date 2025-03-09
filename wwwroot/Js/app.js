@@ -1,103 +1,37 @@
-const url = '/JobFinderAPI';
+const url = '/Jobs';
 let JobsArr = [];
+
+let currentPermission = null;
+let currentPassword = null;
+
+let token = localStorage.getItem("Token");
+if (token == null) {
+    document.getElementById("logOut").style.display = "none";
+    document.getElementById("userLink").style.display = "none";
+}
+else {
+    const payload = token.split('.')[1];
+    const decodedPayload = JSON.parse(atob(payload));
+    currentPermission = decodedPayload.type;
+    currentPassword = decodedPayload.password;
+}
+if (currentPermission === "User"||currentPermission==null)
+    document.getElementById("addForm").style.display = "none";
+else
+    document.getElementById("addForm").style.display = "block";
+
+const logOut = () => {
+    localStorage.removeItem("Token")
+    location.href = 'index.html'
+}
 
 const getItems = () => {
     fetch(url)
         .then(Response => Response.json())
         .then(Data => displayItems(Data))
-        .catch(error => console.error('Unable to get items.', error))
-}
-
-const addItem = () => {
-
-    const newJob = {
-        "location": (document.getElementById('Location').value.trim() === "" || document.getElementById('Location').value.trim() === undefined) ? null : document.getElementById('Location').value.trim(),
-        "jobFieldCategory": (document.getElementById('JobFieldCategory').value.trim() === "" || document.getElementById('JobFieldCategory').value.trim() === undefined) ? null : document.getElementById('JobFieldCategory').value.trim(),
-        "sallery": (document.getElementById('Sallery').value.trim() === "" || document.getElementById('Sallery').value.trim() === undefined) ? null : document.getElementById('Sallery').value.trim(),
-        "jobDescription": (document.getElementById('JobDescription').value.trim() === "" || document.getElementById('JobDescription').value.trim() === undefined) ? null : document.getElementById('JobDescription').value.trim(),
-        "postedDate": (document.getElementById('PostedDate').value.trim() === "" || document.getElementById('PostedDate').value.trim() === undefined) ? null : document.getElementById('PostedDate').value.trim()
-    };
-
-    fetch(url, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(newJob)
-    })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
+        .catch(error => {console.error('Unable to get job.', error)
+            alert('Unable to get job.')
         })
-        .then(() => {
-            getItems();
-            document.getElementById('Location').value = ""
-            document.getElementById('JobFieldCategory').value = ""
-            document.getElementById('Sallery').value = ""
-            document.getElementById('JobDescription').value = ""
-            document.getElementById('PostedDate').value = ""
-        })
-        .catch(error => console.error('Unable to add item.', error));
-}
-
-const deleteItem = (id) => {
-    fetch(`${url}/${id}`, {
-        method: 'DELETE'
-    })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete item.', error));
-}
-
-
-const displayEditForm = (id) => {
-    const JobToEdit = JobsArr.find(item => item.JobID === id)
-
-    document.getElementById('edit-id').value = JobToEdit.jobID
-    document.getElementById('edit-Location').value = JobToEdit.location
-    document.getElementById('edit-JobFieldCategory').value = JobToEdit.jobFieldCategory
-    document.getElementById('edit-Sallery').value = JobToEdit.sallery
-    document.getElementById('edit-JobDescription').value = JobToEdit.jobDescription
-    document.getElementById('edit-PostedDate').value = JobToEdit.postedDate
-    document.getElementById('editForm').style.display = 'block'
-}
-
-const editItem = () => {
-    const itemId = document.getElementById('edit-id').value;
-    const item = {
-        JobID: parseInt(itemId, 10),
-        Location: document.getElementById('edit-Location').value.trim(),
-        JobFieldCategory: document.getElementById('edit-JobFieldCategory').value.trim(),
-        Sallery: document.getElementById('edit-Sallery').value.trim(),
-        JobDescription: document.getElementById('edit-JobDescription').value.trim(),
-        PostedDate: document.getElementById('edit-PostedDate').value.trim()
-    };
-
-    fetch(`${url}/${itemId}`, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(item)
-    })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to update item.', error));
-
-    closeInput();
-
-    return false;
-}
-
-const closeInput = () => {
-    document.getElementById('editForm').style.display = 'none'
-}
-
-const displayCounter = (itemCount) => {
-    let counter = document.getElementById('counter')
-    counter.innerHTML = itemCount
 }
 
 const displayItems = (JobsJson) => {
@@ -114,7 +48,7 @@ const displayItems = (JobsJson) => {
         //edit button
         let editButton = button.cloneNode(false)
         editButton.innerText = 'Edit'
-        editButton.setAttribute('onclick', `displayEditForm(${element.JobID})`)
+        editButton.setAttribute('onclick', `displayEditForm(${element.jobID})`)
 
         //delete button
         let deleteButton = button.cloneNode(false)
@@ -143,150 +77,116 @@ const displayItems = (JobsJson) => {
         let PostedDate = document.createTextNode(element.postedDate)
         td5.appendChild(PostedDate)
 
-        let td6 = tr.insertCell(5);
-        td6.appendChild(editButton);
+        if (currentPermission === "SuperAdmin" || (currentPermission === "Admin" && currentPassword === element.createdBy)) {
+            let td6 = tr.insertCell(5);
+            td6.appendChild(editButton);
 
-        let td7 = tr.insertCell(6);
-        td7.appendChild(deleteButton);
-
+            let td7 = tr.insertCell(6);
+            td7.appendChild(deleteButton);
+        }
     });
-
     JobsArr = JobsJson
 }
 
+const addItem = () => {
+    const newJob = {
+        "location": (document.getElementById('Location').value.trim() === "" || document.getElementById('Location').value.trim() === undefined) ? null : document.getElementById('Location').value.trim(),
+        "jobFieldCategory": (document.getElementById('JobFieldCategory').value.trim() === "" || document.getElementById('JobFieldCategory').value.trim() === undefined) ? null : document.getElementById('JobFieldCategory').value.trim(),
+        "sallery": (document.getElementById('Sallery').value.trim() === "" || document.getElementById('Sallery').value.trim() === undefined) ? null : document.getElementById('Sallery').value.trim(),
+        "jobDescription": (document.getElementById('JobDescription').value.trim() === "" || document.getElementById('JobDescription').value.trim() === undefined) ? null : document.getElementById('JobDescription').value.trim(),
+        "postedDate": (document.getElementById('PostedDate').value.trim() === "" || document.getElementById('PostedDate').value.trim() === undefined) ? null : document.getElementById('PostedDate').value.trim()
+    };
 
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${localStorage.getItem("Token")}`,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newJob)
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(() => {
+            getItems();
+            document.getElementById('Location').value = ""
+            document.getElementById('JobFieldCategory').value = ""
+            document.getElementById('Sallery').value = ""
+            document.getElementById('JobDescription').value = ""
+            document.getElementById('PostedDate').value = ""
+        })
+        .catch(error => {console.error('Unable to add job.', error)
+            alert('Unable to add job.')
+        });
+}
 
-// function getItems() {
-//     fetch(url)
-//         .then(response => response.json())
-//         .then(data => _displayItems(data))
-//         .catch(error => console.error('Unable to get items.', error));
-// }
+const displayEditForm = (id) => {
+    var JobToEdit;
+    JobsArr.forEach((item) => {
+        if (item.jobID == id)
+            JobToEdit = item;
+    });
+    document.getElementById('edit-id').value = JobToEdit.jobID
+    document.getElementById('edit-Location').value = JobToEdit.location
+    document.getElementById('edit-JobFieldCategory').value = JobToEdit.jobFieldCategory
+    document.getElementById('edit-Sallery').value = JobToEdit.sallery
+    document.getElementById('edit-JobDescription').value = JobToEdit.jobDescription
+    document.getElementById('edit-PostedDate').value = JobToEdit.postedDate
+    document.getElementById('editForm').style.display = 'block'
+}
 
-// function addItem() {
-//     const addNameTextbox = document.getElementById('add-name');
+const editItem = () => {
+    const itemId = document.getElementById('edit-id').value;
+    const item = {
+        JobID: parseInt(itemId, 10),
+        Location: document.getElementById('edit-Location').value.trim(),
+        JobFieldCategory: document.getElementById('edit-JobFieldCategory').value.trim(),
+        Sallery: document.getElementById('edit-Sallery').value.trim(),
+        JobDescription: document.getElementById('edit-JobDescription').value.trim(),
+        PostedDate: document.getElementById('edit-PostedDate').value.trim()
+    };
 
-//     const Job = {
-//         isGlutenFree: false,
-//         name: addNameTextbox.value.trim(),
+    fetch(`${url}/${itemId}`, {
+        method: 'PUT',
+        headers: {
+            'Authorization': `Bearer ${localStorage.getItem("Token")}`,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(item)
+    })
+        .then(() => getItems())
+        .catch(error => {console.error('Unable to update job.', error)
+            alert('Unable to update job.')
+        });
+    closeInput();
+    return false;
+}
 
-//         JobID: 111,
+const deleteItem = (id) => {
+    fetch(`${url}/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'Authorization': `Bearer ${localStorage.getItem("Token")}`,
+            'Accept': 'application/json'
+        },
+    })
+        .then(() => getItems())
+        .catch(error => {console.error('Unable to delete job.', error)
+            alert('Unable to delete job.')
+        });
+}
 
-//             Location:
+const closeInput = () => {
+    document.getElementById('editForm').style.display = 'none'
+}
 
-//         JobFieldCategory:
-
-//             Sallery:
-
-//         JobDescription:
-
-//             PostedDate:
-//     };
-
-//     fetch(uri, {
-//         method: 'POST',
-//         headers: {
-//             'Accept': 'application/json',
-//             'Content-Type': 'application/json'
-//         },
-//         body: JSON.stringify(item)
-//     })
-//         .then(response => response.json())
-//         .then(() => {
-//             getItems();
-//             addNameTextbox.value = '';
-//         })
-//         .catch(error => console.error('Unable to add item.', error));
-// }
-
-// function deleteItem(id) {
-//     fetch(`${uri}/${id}`, {
-//         method: 'DELETE'
-//     })
-//         .then(() => getItems())
-//         .catch(error => console.error('Unable to delete item.', error));
-// }
-
-// function displayEditForm(id) {
-//     const item = pizzas.find(item => item.id === id);
-
-//     document.getElementById('edit-name').value = item.name;
-//     document.getElementById('edit-id').value = item.id;
-//     document.getElementById('edit-isGlutenFree').checked = item.isGlutenFree;
-//     document.getElementById('editForm').style.display = 'block';
-// }
-
-// function updateItem() {
-//     const itemId = document.getElementById('edit-id').value;
-//     const item = {
-//         id: parseInt(itemId, 10),
-//         isGlutenFree: document.getElementById('edit-isGlutenFree').checked,
-//         name: document.getElementById('edit-name').value.trim()
-//     };
-
-//     fetch(`${uri}/${itemId}`, {
-//         method: 'PUT',
-//         headers: {
-//             'Accept': 'application/json',
-//             'Content-Type': 'application/json'
-//         },
-//         body: JSON.stringify(item)
-//     })
-//         .then(() => getItems())
-//         .catch(error => console.error('Unable to update item.', error));
-
-//     closeInput();
-
-//     return false;
-// }
-
-// function closeInput() {
-//     document.getElementById('editForm').style.display = 'none';
-// }
-
-// function _displayCount(itemCount) {
-//     const name = (itemCount === 1) ? 'pizza' : 'pizza kinds';
-
-//     document.getElementById('counter').innerText = `${itemCount} ${name}`;
-// }
-
-// function _displayItems(data) {
-//     const tBody = document.getElementById('pizzas');
-//     tBody.innerHTML = '';
-
-//     _displayCount(data.length);
-
-//     const button = document.createElement('button');
-
-//     data.forEach(item => {
-//         let isGlutenFreeCheckbox = document.createElement('input');
-//         isGlutenFreeCheckbox.type = 'checkbox';
-//         isGlutenFreeCheckbox.disabled = true;
-//         isGlutenFreeCheckbox.checked = item.isGlutenFree;
-
-//         let editButton = button.cloneNode(false);
-//         editButton.innerText = 'Edit';
-//         editButton.setAttribute('onclick', `displayEditForm(${item.id})`);
-
-//         let deleteButton = button.cloneNode(false);
-//         deleteButton.innerText = 'Delete';
-//         deleteButton.setAttribute('onclick', `deleteItem(${item.id})`);
-
-//         let tr = tBody.insertRow();
-
-//         let td1 = tr.insertCell(0);
-//         td1.appendChild(isGlutenFreeCheckbox);
-
-//         let td2 = tr.insertCell(1);
-//         let textNode = document.createTextNode(item.name);
-//         td2.appendChild(textNode);
-
-//         let td3 = tr.insertCell(2);
-//         td3.appendChild(editButton);
-
-//         let td4 = tr.insertCell(3);
-//         td4.appendChild(deleteButton);
-//     });
-
-//     computers = data;
-// }
+const displayCounter = (itemCount) => {
+    let counter = document.getElementById('counter')
+    counter.innerHTML = itemCount
+}
