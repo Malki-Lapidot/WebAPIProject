@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using WebAPIProject.Interface;
 
 
-namespace WebApiProject.Services
+namespace WebAPIProject.Services
 {
     public class TokenService : ITokenService
     {

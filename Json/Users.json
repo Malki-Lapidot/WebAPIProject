@@ -1,32 +1,32 @@
 [
   {
-    "Password": "RS",
-    "Permission": "SuperAdmin",
-    "UserName": "Ruti"
-  },
-  {
     "Password": "ML",
     "Permission": "SuperAdmin",
     "UserName": "Malki"
   },
   {
-    "Password": "1234",
+    "Password": "RS",
+    "Permission": "SuperAdmin",
+    "UserName": "Ruti"
+  },
+  {
+    "Password": "user101",
     "Permission": "Admin",
     "UserName": "Adi"
   },
   {
-    "Password": "user789",
-    "Permission": "Admin",
-    "UserName": "Charlie"
-  },
-  {
     "Password": "user123",
-    "Permission": "user",
+    "Permission": "User",
     "UserName": "Alice"
   },
   {
     "Password": "user456",
     "Permission": "User",
     "UserName": "Bob"
+  },
+  {
+    "Password": "user789",
+    "Permission": "Admin",
+    "UserName": "Charlie"
   }
 ]

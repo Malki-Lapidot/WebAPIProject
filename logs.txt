@@ -8604,3 +8604,3609 @@
 [09/03/2025 20:01:40] Request: GET /Jobs
 [09/03/2025 20:01:40] Response: 200
 
+[09/03/2025 23:21:35] Request: GET /Js/login.js
+[09/03/2025 23:21:35] Response: 304
+
+[09/03/2025 23:21:45] Request: POST /Login
+[09/03/2025 23:21:45] Response: 401
+
+[09/03/2025 23:21:48] Request: GET /Js/app.js
+[09/03/2025 23:21:48] Response: 304
+
+[09/03/2025 23:21:48] Request: GET /Jobs
+[09/03/2025 23:21:48] Response: 200
+
+[09/03/2025 23:22:00] Request: POST /Login
+[09/03/2025 23:22:00] Response: 401
+
+[09/03/2025 23:22:03] Request: GET /Jobs
+[09/03/2025 23:22:03] Response: 200
+
+[09/03/2025 23:22:28] Request: POST /Login
+[09/03/2025 23:22:28] Response: 200
+
+[09/03/2025 23:22:28] Request: GET /Jobs
+[09/03/2025 23:22:28] Response: 200
+
+[09/03/2025 23:23:15] Request: POST /Jobs
+[09/03/2025 23:23:15] Response: 401
+
+[09/03/2025 23:23:29] Request: POST /Jobs
+[09/03/2025 23:23:29] Response: 401
+
+[09/03/2025 23:24:49] Request: GET /Html/index.html
+[09/03/2025 23:24:49] Response: 304
+
+[09/03/2025 23:24:49] Request: GET /Jobs
+[09/03/2025 23:24:49] Response: 200
+
+[09/03/2025 23:24:51] Request: GET /Html/index.html
+[09/03/2025 23:24:51] Response: 304
+
+[09/03/2025 23:24:51] Request: GET /Jobs
+[09/03/2025 23:24:51] Response: 200
+
+[09/03/2025 23:24:56] Request: GET /Html/user.html
+[09/03/2025 23:24:56] Response: 200
+
+[09/03/2025 23:24:56] Request: GET /Css/user.css
+[09/03/2025 23:24:56] Request: GET /Js/user.js
+[09/03/2025 23:24:56] Response: 200
+
+[09/03/2025 23:24:56] Response: 200
+
+[09/03/2025 23:24:57] Request: GET /Users
+[09/03/2025 23:24:57] Response: 200
+
+[09/03/2025 23:25:29] Request: GET /Html/index.html
+[09/03/2025 23:25:29] Response: 304
+
+[09/03/2025 23:25:29] Request: GET /Jobs
+[09/03/2025 23:25:29] Response: 200
+
+[09/03/2025 23:25:32] Request: GET /Html/index.html
+[09/03/2025 23:25:32] Response: 304
+
+[09/03/2025 23:25:32] Request: GET /Jobs
+[09/03/2025 23:25:32] Response: 200
+
+[09/03/2025 23:25:40] Request: GET /Html/index.html
+[09/03/2025 23:25:40] Response: 304
+
+[09/03/2025 23:25:40] Request: GET /Jobs
+[09/03/2025 23:25:40] Response: 200
+
+[09/03/2025 23:25:42] Request: GET /Jobs
+[09/03/2025 23:25:42] Response: 200
+
+[09/03/2025 23:25:51] Request: POST /Login
+[09/03/2025 23:25:51] Response: 200
+
+[09/03/2025 23:25:51] Request: GET /Jobs
+[09/03/2025 23:25:51] Response: 200
+
+[09/03/2025 23:26:19] Request: POST /Login
+[09/03/2025 23:26:19] Response: 200
+
+[09/03/2025 23:26:19] Request: GET /Jobs
+[09/03/2025 23:26:19] Response: 200
+
+[09/03/2025 23:26:35] Request: POST /Jobs
+[09/03/2025 23:26:35] Response: 401
+
+[09/03/2025 23:26:47] Request: POST /Jobs
+[09/03/2025 23:26:47] Response: 401
+
+[09/03/2025 23:27:08] Request: POST /Jobs
+[09/03/2025 23:27:08] Response: 401
+
+[09/03/2025 23:27:44] Request: POST /Jobs
+[09/03/2025 23:27:44] Response: 401
+
+[09/03/2025 23:32:07] Request: GET /Html/index.html
+[09/03/2025 23:32:07] Response: 404
+
+[09/03/2025 23:32:13] Request: GET /Html/index.html
+[09/03/2025 23:32:13] Response: 404
+
+[09/03/2025 23:32:15] Request: GET /Jobs
+[09/03/2025 23:32:15] Response: 200
+
+[09/03/2025 23:32:34] Request: POST /Jobs
+[09/03/2025 23:32:34] Response: 401
+
+[09/03/2025 23:32:48] Request: POST /Login
+[09/03/2025 23:32:48] Response: 200
+
+[09/03/2025 23:32:48] Request: GET /Html/index.html
+[09/03/2025 23:32:48] Response: 404
+
+[09/03/2025 23:32:52] Request: GET /Jobs
+[09/03/2025 23:32:52] Response: 200
+
+[09/03/2025 23:33:02] Request: POST /Login
+[09/03/2025 23:33:02] Response: 200
+
+[09/03/2025 23:33:02] Request: GET /Html/index.html
+[09/03/2025 23:33:02] Response: 404
+
+[09/03/2025 23:34:06] Request: GET /Html/index.html
+[09/03/2025 23:34:06] Response: 404
+
+[09/03/2025 23:34:08] Request: GET /Html/index.html
+[09/03/2025 23:34:08] Response: 404
+
+[09/03/2025 23:34:18] Request: GET /Html/index.html
+[09/03/2025 23:34:18] Response: 404
+
+[09/03/2025 23:34:19] Request: GET /Jobs
+[09/03/2025 23:34:19] Response: 200
+
+[09/03/2025 23:34:31] Request: POST /Login
+[09/03/2025 23:34:31] Response: 200
+
+[09/03/2025 23:34:31] Request: GET /Html/index.html
+[09/03/2025 23:34:31] Response: 404
+
+[09/03/2025 23:38:20] Request: GET /Html/index.html
+[09/03/2025 23:38:20] Response: 200
+
+[09/03/2025 23:38:20] Request: GET /Jobs
+[09/03/2025 23:38:20] Response: 200
+
+[09/03/2025 23:38:28] Request: POST /Login
+[09/03/2025 23:38:28] Response: 200
+
+[09/03/2025 23:38:28] Request: GET /Html/index.html
+[09/03/2025 23:38:28] Response: 304
+
+[09/03/2025 23:38:29] Request: GET /Jobs
+[09/03/2025 23:38:29] Response: 200
+
+[09/03/2025 23:38:47] Request: POST /Jobs
+[09/03/2025 23:38:47] Response: 401
+
+[09/03/2025 23:39:08] Request: DELETE /Jobs/3
+[09/03/2025 23:39:08] Response: 401
+
+[09/03/2025 23:39:09] Request: GET /Jobs
+[09/03/2025 23:39:09] Response: 200
+
+[09/03/2025 23:39:11] Request: DELETE /Jobs/3
+[09/03/2025 23:39:11] Response: 401
+
+[09/03/2025 23:39:11] Request: GET /Jobs
+[09/03/2025 23:39:11] Response: 200
+
+[09/03/2025 23:39:15] Request: DELETE /Jobs/3
+[09/03/2025 23:39:15] Response: 401
+
+[09/03/2025 23:39:15] Request: GET /Jobs
+[09/03/2025 23:39:15] Response: 200
+
+[09/03/2025 23:39:15] Request: DELETE /Jobs/3
+[09/03/2025 23:39:15] Response: 401
+
+[09/03/2025 23:39:15] Request: GET /Jobs
+[09/03/2025 23:39:16] Response: 200
+
+[09/03/2025 23:39:23] Request: PUT /Jobs/3
+[09/03/2025 23:39:24] Response: 401
+
+[09/03/2025 23:39:24] Request: GET /Jobs
+[09/03/2025 23:39:24] Response: 200
+
+[09/03/2025 23:40:19] Request: PUT /Jobs/1
+[09/03/2025 23:40:19] Response: 401
+
+[09/03/2025 23:40:19] Request: GET /Jobs
+[09/03/2025 23:40:19] Response: 200
+
+[10/03/2025 00:26:47] Request: GET /
+[10/03/2025 00:26:47] Response: 307
+
+[10/03/2025 00:27:09] Request: GET /
+[10/03/2025 00:27:09] Response: 307
+
+[10/03/2025 00:28:43] Request: GET /Js/login.js
+[10/03/2025 00:28:43] Response: 200
+
+[10/03/2025 00:28:43] Error: The process cannot access the file 'C:\Users\user1\Desktop\תכנות\שנה ב\Core\WebAPIProject\logs.txt' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFileAsync(String path, FileMode mode, String contents, Encoding encoding, CancellationToken cancellationToken)
+   at MyLoggerMiddleWare.LoggerMiddleWare.Invoke(HttpContext c) in C:\Users\user1\Desktop\תכנות\שנה ב\Core\WebAPIProject\LoggerMiddleWare.cs:line 23
+[10/03/2025 00:28:43] Response: 200
+
+[10/03/2025 00:28:43] Request: GET /Jobs
+[10/03/2025 00:28:43] Response: 200
+
+[10/03/2025 00:29:01] Request: POST /Login
+[10/03/2025 00:29:01] Response: 200
+
+[10/03/2025 00:29:01] Request: GET /Html/index.html
+[10/03/2025 00:29:01] Response: 200
+
+[10/03/2025 00:29:02] Request: GET /Jobs
+[10/03/2025 00:29:02] Response: 200
+
+[10/03/2025 00:29:13] Request: POST /Login
+[10/03/2025 00:29:13] Response: 200
+
+[10/03/2025 00:29:13] Request: GET /Jobs
+[10/03/2025 00:29:13] Response: 200
+
+[10/03/2025 00:29:31] Request: POST /Jobs
+[10/03/2025 00:29:31] Response: 201
+
+[10/03/2025 00:29:31] Request: GET /Jobs
+[10/03/2025 00:29:31] Response: 200
+
+[10/03/2025 00:29:39] Request: PUT /Jobs/24
+[10/03/2025 00:29:39] Response: 201
+
+[10/03/2025 00:29:39] Request: GET /Jobs
+[10/03/2025 00:29:39] Response: 200
+
+[10/03/2025 00:29:41] Request: DELETE /Jobs/24
+[10/03/2025 00:29:41] Response: 201
+
+[10/03/2025 00:29:41] Request: GET /Jobs
+[10/03/2025 00:29:41] Response: 200
+
+[10/03/2025 00:33:07] Request: GET /Html/index.html
+[10/03/2025 00:33:07] Response: 200
+
+[10/03/2025 00:33:08] Request: GET /Js/login.js
+[10/03/2025 00:33:08] Request: GET /Js/app.js
+[10/03/2025 00:33:08] Request: GET /Css/style.css
+[10/03/2025 00:33:08] Response: 200
+
+[10/03/2025 00:33:08] Response: 200
+
+[10/03/2025 00:33:08] Response: 200
+
+[10/03/2025 00:33:08] Request: GET /favicon.ico
+[10/03/2025 00:33:08] Response: 404
+
+[10/03/2025 00:33:08] Request: GET /Jobs
+[10/03/2025 00:33:08] Response: 200
+
+[10/03/2025 00:45:24] Request: GET /Html/index.html
+[10/03/2025 00:45:24] Response: 200
+
+[10/03/2025 00:45:24] Request: GET /Css/style.css
+[10/03/2025 00:45:24] Response: 200
+
+[10/03/2025 00:45:24] Request: GET /Js/login.js
+[10/03/2025 00:45:24] Request: GET /Js/app.js
+[10/03/2025 00:45:24] Response: 200
+
+[10/03/2025 00:45:24] Response: 200
+
+[10/03/2025 00:45:24] Request: GET /Jobs
+[10/03/2025 00:45:24] Response: 200
+
+[10/03/2025 00:46:49] Request: GET /
+[10/03/2025 00:46:49] Response: 307
+
+[10/03/2025 00:46:50] Request: GET /Jobs
+[10/03/2025 00:46:50] Response: 200
+
+[10/03/2025 00:46:55] Request: GET /Html/login.html
+[10/03/2025 00:46:55] Response: 200
+
+[10/03/2025 00:46:55] Request: GET /Css/login.css
+[10/03/2025 00:46:55] Response: 200
+
+[10/03/2025 00:47:01] Request: POST /Login
+[10/03/2025 00:47:01] Response: 200
+
+[10/03/2025 00:47:01] Request: GET /Html/index.html
+[10/03/2025 00:47:01] Response: 200
+
+[10/03/2025 00:47:01] Request: GET /Jobs
+[10/03/2025 00:47:01] Response: 200
+
+[10/03/2025 00:47:39] Request: POST /Login
+[10/03/2025 00:47:39] Response: 200
+
+[10/03/2025 00:47:39] Request: GET /Jobs
+[10/03/2025 00:47:39] Response: 200
+
+[10/03/2025 00:47:57] Request: POST /Jobs
+[10/03/2025 00:47:57] Response: 201
+
+[10/03/2025 00:47:57] Request: GET /Jobs
+[10/03/2025 00:47:57] Response: 200
+
+[10/03/2025 00:48:05] Request: PUT /Jobs/24
+[10/03/2025 00:48:05] Response: 201
+
+[10/03/2025 00:48:05] Request: GET /Jobs
+[10/03/2025 00:48:05] Response: 200
+
+[10/03/2025 00:54:54] Request: POST /Jobs
+[10/03/2025 00:54:54] Response: 201
+
+[10/03/2025 00:54:54] Request: GET /Jobs
+[10/03/2025 00:54:54] Response: 200
+
+[10/03/2025 00:56:30] Request: PUT /Jobs/25
+[10/03/2025 00:56:30] Response: 201
+
+[10/03/2025 00:56:31] Request: GET /Jobs
+[10/03/2025 00:56:31] Response: 200
+
+[10/03/2025 00:56:51] Request: GET /Html/index.html
+[10/03/2025 00:56:51] Response: 304
+
+[10/03/2025 00:56:51] Request: GET /Js/app.js
+[10/03/2025 00:56:51] Request: GET /Js/login.js
+[10/03/2025 00:56:51] Response: 304
+
+[10/03/2025 00:56:51] Response: 304
+
+[10/03/2025 00:56:51] Request: GET /Jobs
+[10/03/2025 00:56:51] Response: 200
+
+[10/03/2025 00:56:54] Request: DELETE /Jobs/25
+[10/03/2025 00:56:54] Response: 201
+
+[10/03/2025 00:56:54] Request: GET /Jobs
+[10/03/2025 00:56:54] Response: 200
+
+[10/03/2025 01:01:15] Request: GET /Html/index.html
+[10/03/2025 01:01:15] Response: 200
+
+[10/03/2025 01:01:16] Request: GET /Jobs
+[10/03/2025 01:01:16] Response: 200
+
+[10/03/2025 01:01:23] Request: PUT /Jobs/25
+[10/03/2025 01:01:23] Response: 201
+
+[10/03/2025 01:01:23] Request: GET /Jobs
+[10/03/2025 01:01:23] Response: 200
+
+[10/03/2025 01:04:59] Request: GET /Html/index.html
+[10/03/2025 01:04:59] Response: 200
+
+[10/03/2025 01:04:59] Request: GET /Css/style.css
+[10/03/2025 01:04:59] Request: GET /Js/login.js
+[10/03/2025 01:04:59] Response: 200
+
+[10/03/2025 01:04:59] Response: 200
+
+[10/03/2025 01:04:59] Request: GET /Js/app.js
+[10/03/2025 01:04:59] Response: 200
+
+[10/03/2025 01:04:59] Request: GET /Jobs
+[10/03/2025 01:04:59] Response: 200
+
+[10/03/2025 01:05:11] Request: PUT /Jobs/25
+[10/03/2025 01:05:11] Response: 201
+
+[10/03/2025 01:05:11] Request: GET /Jobs
+[10/03/2025 01:05:11] Response: 200
+
+[10/03/2025 01:05:54] Request: PUT /Jobs/25
+[10/03/2025 01:05:54] Response: 201
+
+[10/03/2025 01:05:54] Request: GET /Jobs
+[10/03/2025 01:05:55] Response: 200
+
+[10/03/2025 19:29:17] Request: PUT /Jobs/25
+[10/03/2025 19:29:17] Response: 201
+
+[10/03/2025 19:29:17] Request: GET /Jobs
+[10/03/2025 19:29:17] Response: 200
+
+[10/03/2025 20:56:57] Request: GET /event/%22yael.ben-david@example.com%22
+[10/03/2025 20:56:57] Response: 307
+
+[10/03/2025 20:56:58] Request: GET /event/%22yael.ben-david@example.com%22
+[10/03/2025 20:56:58] Response: 404
+
+[10/03/2025 20:57:07] Request: GET /event/yael.ben-david@example.com
+[10/03/2025 20:57:07] Response: 307
+
+[10/03/2025 20:57:07] Request: GET /event/yael.ben-david@example.com
+[10/03/2025 20:57:07] Response: 404
+
+[10/03/2025 20:57:15] Request: GET /producer/yael.ben-david@example.com
+[10/03/2025 20:57:15] Response: 307
+
+[10/03/2025 20:57:15] Request: GET /producer/yael.ben-david@example.com
+[10/03/2025 20:57:15] Response: 404
+
+[10/03/2025 20:57:24] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:57:24] Response: 307
+
+[10/03/2025 20:57:24] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:57:24] Response: 404
+
+[10/03/2025 20:57:58] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:57:58] Response: 307
+
+[10/03/2025 20:57:59] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:57:59] Response: 404
+
+[10/03/2025 20:59:36] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:36] Response: 307
+
+[10/03/2025 20:59:36] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:36] Response: 404
+
+[10/03/2025 20:59:38] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:38] Response: 307
+
+[10/03/2025 20:59:38] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:38] Response: 404
+
+[10/03/2025 20:59:46] Request: GET /producer/yael.ben-david@example.com
+[10/03/2025 20:59:46] Response: 307
+
+[10/03/2025 20:59:46] Request: GET /producer/yael.ben-david@example.com
+[10/03/2025 20:59:46] Response: 404
+
+[10/03/2025 20:59:58] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:58] Response: 307
+
+[10/03/2025 20:59:58] Request: GET /producer/%22yael.ben-david@example.com%22
+[10/03/2025 20:59:58] Response: 404
+
+[10/03/2025 21:07:35] Request: GET /producer
+[10/03/2025 21:07:35] Response: 307
+
+[10/03/2025 21:07:35] Request: GET /Html/index.html
+[10/03/2025 21:07:35] Response: 200
+
+[10/03/2025 21:08:49] Request: GET /producer
+[10/03/2025 21:08:49] Response: 307
+
+[10/03/2025 21:08:49] Request: GET /Html/index.html
+[10/03/2025 21:08:49] Response: 200
+
+[10/03/2025 21:08:59] Request: GET /event
+[10/03/2025 21:08:59] Response: 307
+
+[10/03/2025 21:08:59] Request: GET /Html/index.html
+[10/03/2025 21:08:59] Response: 200
+
+[10/03/2025 21:09:09] Request: GET /event
+[10/03/2025 21:09:09] Response: 307
+
+[10/03/2025 21:09:09] Request: GET /Html/index.html
+[10/03/2025 21:09:09] Response: 200
+
+[11/03/2025 16:00:17] Request: GET /Html/index.html
+[11/03/2025 16:00:17] Response: 200
+
+[11/03/2025 16:00:17] Request: GET /Js/login.js
+[11/03/2025 16:00:17] Response: 200
+
+[11/03/2025 16:00:17] Request: GET /Css/style.css
+[11/03/2025 16:00:17] Response: 200
+
+[11/03/2025 16:00:17] Request: GET /Js/app.js
+[11/03/2025 16:00:17] Response: 200
+
+[11/03/2025 16:00:18] Request: GET /Jobs
+[11/03/2025 16:00:18] Response: 200
+
+[11/03/2025 16:00:22] Request: GET /index.html
+[11/03/2025 16:00:22] Response: 404
+
+[11/03/2025 16:00:27] Request: GET /index.html
+[11/03/2025 16:00:27] Response: 404
+
+[11/03/2025 16:00:45] Request: GET /Html/login.html
+[11/03/2025 16:00:45] Response: 304
+
+[11/03/2025 16:00:45] Request: GET /Css/login.css
+[11/03/2025 16:00:45] Response: 200
+
+[11/03/2025 16:00:51] Request: POST /Login
+[11/03/2025 16:00:51] Response: 200
+
+[11/03/2025 16:00:52] Request: GET /Html/index.html
+[11/03/2025 16:00:52] Response: 200
+
+[11/03/2025 16:00:52] Request: GET /Js/app.js
+[11/03/2025 16:00:52] Response: 304
+
+[11/03/2025 16:00:52] Request: GET /Jobs
+[11/03/2025 16:00:52] Response: 200
+
+[11/03/2025 16:02:11] Request: GET /Html/index.html
+[11/03/2025 16:02:11] Response: 304
+
+[11/03/2025 16:02:11] Request: GET /Js/app.js
+[11/03/2025 16:02:11] Response: 304
+
+[11/03/2025 16:02:12] Request: GET /Jobs
+[11/03/2025 16:02:12] Response: 200
+
+[11/03/2025 16:02:34] Request: GET /Html/index.html
+[11/03/2025 16:02:34] Response: 304
+
+[11/03/2025 16:02:34] Request: GET /Js/app.js
+[11/03/2025 16:02:34] Response: 304
+
+[11/03/2025 16:02:35] Request: GET /Jobs
+[11/03/2025 16:02:35] Response: 200
+
+[11/03/2025 16:02:37] Request: GET /Html/index.html
+[11/03/2025 16:02:37] Response: 304
+
+[11/03/2025 16:02:37] Request: GET /Jobs
+[11/03/2025 16:02:37] Response: 200
+
+[11/03/2025 16:03:15] Request: GET /Html/index.html
+[11/03/2025 16:03:15] Response: 304
+
+[11/03/2025 16:03:15] Request: GET /Js/app.js
+[11/03/2025 16:03:15] Response: 304
+
+[11/03/2025 16:03:15] Request: GET /Jobs
+[11/03/2025 16:03:15] Response: 200
+
+[11/03/2025 16:05:09] Request: POST /Login
+[11/03/2025 16:05:09] Response: 200
+
+[11/03/2025 16:05:09] Request: GET /Html/index.html
+[11/03/2025 16:05:09] Response: 304
+
+[11/03/2025 16:05:10] Request: GET /Js/app.js
+[11/03/2025 16:05:10] Response: 304
+
+[11/03/2025 16:05:10] Request: GET /Jobs
+[11/03/2025 16:05:10] Response: 200
+
+[11/03/2025 16:06:15] Request: GET /Html/user.html
+[11/03/2025 16:06:15] Response: 200
+
+[11/03/2025 16:06:15] Request: GET /Css/user.css
+[11/03/2025 16:06:15] Response: 200
+
+[11/03/2025 16:06:15] Request: GET /Js/user.js
+[11/03/2025 16:06:15] Response: 200
+
+[11/03/2025 16:06:15] Request: GET /Users
+[11/03/2025 16:06:16] Response: 200
+
+[11/03/2025 16:07:53] Request: GET /Html/index.html
+[11/03/2025 16:07:53] Response: 304
+
+[11/03/2025 16:07:53] Request: GET /Js/app.js
+[11/03/2025 16:07:53] Response: 200
+
+[11/03/2025 16:07:53] Request: GET /Jobs
+[11/03/2025 16:07:54] Response: 200
+
+[11/03/2025 16:08:05] Request: GET /Js/app.js
+[11/03/2025 16:08:05] Response: 304
+
+[11/03/2025 16:08:05] Request: GET /Jobs
+[11/03/2025 16:08:06] Response: 200
+
+[11/03/2025 16:08:18] Request: POST /Login
+[11/03/2025 16:08:18] Response: 200
+
+[11/03/2025 16:08:19] Request: GET /Js/app.js
+[11/03/2025 16:08:19] Response: 304
+
+[11/03/2025 16:08:19] Request: GET /Jobs
+[11/03/2025 16:08:19] Response: 200
+
+[11/03/2025 16:08:40] Request: GET /Js/app.js
+[11/03/2025 16:08:40] Response: 200
+
+[11/03/2025 16:08:40] Request: GET /Jobs
+[11/03/2025 16:08:40] Response: 200
+
+[11/03/2025 16:09:34] Request: GET /Html/index.html
+[11/03/2025 16:09:34] Response: 304
+
+[11/03/2025 16:09:34] Request: GET /Js/app.js
+[11/03/2025 16:09:34] Response: 200
+
+[11/03/2025 16:09:34] Request: GET /Jobs
+[11/03/2025 16:09:34] Response: 200
+
+[11/03/2025 16:09:42] Request: POST /Login
+[11/03/2025 16:09:42] Response: 200
+
+[11/03/2025 16:09:42] Request: GET /Js/app.js
+[11/03/2025 16:09:42] Response: 304
+
+[11/03/2025 16:09:42] Request: GET /Jobs
+[11/03/2025 16:09:42] Response: 200
+
+[11/03/2025 16:10:37] Request: POST /Login
+[11/03/2025 16:10:37] Response: 200
+
+[11/03/2025 16:10:37] Request: GET /Js/app.js
+[11/03/2025 16:10:37] Response: 304
+
+[11/03/2025 16:10:37] Request: GET /Jobs
+[11/03/2025 16:10:37] Response: 200
+
+[11/03/2025 18:14:52] Request: GET /Js/user.js
+[11/03/2025 18:14:52] Response: 304
+
+[11/03/2025 18:14:53] Request: GET /Users
+[11/03/2025 18:14:53] Response: 200
+
+[11/03/2025 18:14:55] Request: GET /Html/user.html
+[11/03/2025 18:14:55] Response: 304
+
+[11/03/2025 18:14:55] Request: GET /Users
+[11/03/2025 18:14:56] Response: 200
+
+[11/03/2025 18:15:14] Request: GET /Html/index.html
+[11/03/2025 18:15:14] Response: 200
+
+[11/03/2025 18:15:14] Request: GET /Js/app.js
+[11/03/2025 18:15:14] Response: 304
+
+[11/03/2025 18:15:14] Request: GET /Jobs
+[11/03/2025 18:15:14] Response: 200
+
+[11/03/2025 18:15:21] Request: POST /Login
+[11/03/2025 18:15:21] Response: 200
+
+[11/03/2025 18:15:21] Request: GET /Jobs
+[11/03/2025 18:15:21] Response: 200
+
+[11/03/2025 18:15:23] Request: GET /Users
+[11/03/2025 18:15:23] Response: 200
+
+[11/03/2025 18:16:23] Request: GET /swagger
+[11/03/2025 18:16:23] Response: 301
+
+[11/03/2025 18:16:23] Request: GET /swagger/index.html
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:23] Request: GET /swagger/index.js
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:23] Request: GET /swagger/index.css
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:23] Request: GET /swagger/swagger-ui.css
+[11/03/2025 18:16:23] Request: GET /swagger/swagger-ui-standalone-preset.js
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:23] Request: GET /swagger/swagger-ui-bundle.js
+[11/03/2025 18:16:23] Response: 200
+
+[11/03/2025 18:16:24] Request: GET /swagger/favicon-32x32.png
+[11/03/2025 18:16:24] Response: 200
+
+[11/03/2025 18:16:24] Request: GET /swagger/v1/swagger.json
+[11/03/2025 18:16:24] Response: 200
+
+[11/03/2025 18:16:41] Request: POST /Login
+[11/03/2025 18:16:41] Response: 200
+
+[11/03/2025 18:17:04] Request: GET /Users/GetAllUsers
+[11/03/2025 18:17:04] Response: 200
+
+[11/03/2025 18:17:22] Request: GET /swagger/index.html
+[11/03/2025 18:17:22] Response: 200
+
+[11/03/2025 18:17:22] Request: GET /swagger/index.js
+[11/03/2025 18:17:22] Response: 200
+
+[11/03/2025 18:17:22] Request: GET /swagger/index.css
+[11/03/2025 18:17:22] Response: 200
+
+[11/03/2025 18:17:22] Request: GET /swagger/swagger-ui.css
+[11/03/2025 18:17:22] Response: 200
+
+[11/03/2025 18:17:23] Request: GET /swagger/swagger-ui-standalone-preset.js
+[11/03/2025 18:17:23] Response: 200
+
+[11/03/2025 18:17:23] Request: GET /swagger/swagger-ui-bundle.js
+[11/03/2025 18:17:23] Response: 200
+
+[11/03/2025 18:17:23] Request: GET /swagger/v1/swagger.json
+[11/03/2025 18:17:23] Response: 200
+
+[11/03/2025 18:17:30] Request: GET /Html/index.html
+[11/03/2025 18:17:30] Response: 200
+
+[11/03/2025 18:17:30] Request: GET /Js/app.js
+[11/03/2025 18:17:30] Request: GET /Js/login.js
+[11/03/2025 18:17:30] Response: 200
+
+[11/03/2025 18:17:30] Response: 200
+
+[11/03/2025 18:17:30] Request: GET /Css/style.css
+[11/03/2025 18:17:30] Response: 200
+
+[11/03/2025 18:17:30] Request: GET /Jobs
+[11/03/2025 18:17:30] Response: 200
+
+[11/03/2025 18:17:41] Request: GET /Users
+[11/03/2025 18:17:41] Response: 200
+
+[11/03/2025 18:19:16] Request: GET /Html/user.html
+[11/03/2025 18:19:16] Response: 200
+
+[11/03/2025 18:19:16] Request: GET /Css/user.css
+[11/03/2025 18:19:16] Response: 200
+
+[11/03/2025 18:19:16] Request: GET /Js/user.js
+[11/03/2025 18:19:16] Response: 200
+
+[11/03/2025 18:19:16] Request: GET /Users
+[11/03/2025 18:19:16] Response: 200
+
+[11/03/2025 18:20:24] Request: GET /Html/user.html
+[11/03/2025 18:20:24] Response: 200
+
+[11/03/2025 18:20:25] Request: GET /Css/user.css
+[11/03/2025 18:20:25] Response: 200
+
+[11/03/2025 18:20:25] Request: GET /Js/user.js
+[11/03/2025 18:20:25] Response: 200
+
+[11/03/2025 18:20:25] Request: GET /Users
+[11/03/2025 18:20:25] Response: 200
+
+[11/03/2025 18:20:52] Request: GET /Html/user.html
+[11/03/2025 18:20:52] Response: 200
+
+[11/03/2025 18:20:52] Request: GET /Css/user.css
+[11/03/2025 18:20:52] Response: 200
+
+[11/03/2025 18:20:53] Request: GET /Js/user.js
+[11/03/2025 18:20:53] Response: 200
+
+[11/03/2025 18:20:53] Request: GET /Users
+[11/03/2025 18:20:53] Response: 200
+
+[11/03/2025 18:21:21] Request: GET /Html/user.html
+[11/03/2025 18:21:21] Response: 200
+
+[11/03/2025 18:21:21] Request: GET /Css/user.css
+[11/03/2025 18:21:21] Response: 200
+
+[11/03/2025 18:21:21] Request: GET /Js/user.js
+[11/03/2025 18:21:21] Response: 200
+
+[11/03/2025 18:21:21] Request: GET /Users
+[11/03/2025 18:21:21] Response: 200
+
+[11/03/2025 18:22:23] Request: GET /Html/user.html
+[11/03/2025 18:22:23] Response: 200
+
+[11/03/2025 18:22:23] Request: GET /Css/user.css
+[11/03/2025 18:22:23] Response: 200
+
+[11/03/2025 18:22:23] Request: GET /Js/user.js
+[11/03/2025 18:22:23] Response: 200
+
+[11/03/2025 18:22:23] Request: GET /Users
+[11/03/2025 18:22:23] Response: 200
+
+[11/03/2025 18:22:44] Request: GET /Html/user.html
+[11/03/2025 18:22:44] Response: 200
+
+[11/03/2025 18:22:44] Request: GET /Css/user.css
+[11/03/2025 18:22:44] Response: 200
+
+[11/03/2025 18:22:44] Request: GET /Js/user.js
+[11/03/2025 18:22:44] Response: 200
+
+[11/03/2025 18:22:44] Request: GET /Users
+[11/03/2025 18:22:45] Response: 200
+
+[11/03/2025 18:23:29] Request: GET /Html/user.html
+[11/03/2025 18:23:29] Response: 200
+
+[11/03/2025 18:23:29] Request: GET /Css/user.css
+[11/03/2025 18:23:29] Response: 200
+
+[11/03/2025 18:23:29] Request: GET /Js/user.js
+[11/03/2025 18:23:29] Response: 200
+
+[11/03/2025 18:23:29] Request: GET /Users/GetAllUsers
+[11/03/2025 18:23:30] Response: 200
+
+[11/03/2025 18:23:53] Request: GET /Html/user.html
+[11/03/2025 18:23:53] Response: 200
+
+[11/03/2025 18:23:53] Request: GET /Css/user.css
+[11/03/2025 18:23:53] Response: 200
+
+[11/03/2025 18:23:53] Request: GET /Js/user.js
+[11/03/2025 18:23:53] Response: 200
+
+[11/03/2025 18:23:53] Request: GET /Users/GetAllUsers
+[11/03/2025 18:23:53] Response: 200
+
+[11/03/2025 18:24:01] Request: GET /Html/user.html
+[11/03/2025 18:24:01] Response: 304
+
+[11/03/2025 18:24:01] Request: GET /Js/user.js
+[11/03/2025 18:24:01] Response: 304
+
+[11/03/2025 18:24:01] Request: GET /Users/GetAllUsers
+[11/03/2025 18:24:02] Response: 200
+
+[11/03/2025 18:26:46] Request: GET /Html/user.html
+[11/03/2025 18:26:46] Response: 304
+
+[11/03/2025 18:26:46] Request: GET /Js/user.js
+[11/03/2025 18:26:46] Response: 304
+
+[11/03/2025 18:26:46] Request: GET /Users/GetAllUsers
+[11/03/2025 18:26:46] Response: 200
+
+[11/03/2025 18:26:51] Request: GET /Css/style.css
+[11/03/2025 18:26:51] Response: 200
+
+[11/03/2025 18:26:51] Request: GET /Jobs
+[11/03/2025 18:26:51] Response: 200
+
+[11/03/2025 18:27:16] Request: POST /Login
+[11/03/2025 18:27:16] Response: 401
+
+[11/03/2025 18:27:18] Request: GET /Css/style.css
+[11/03/2025 18:27:18] Response: 304
+
+[11/03/2025 18:27:18] Request: GET /Jobs
+[11/03/2025 18:27:18] Response: 200
+
+[11/03/2025 18:27:28] Request: POST /Login
+[11/03/2025 18:27:28] Response: 200
+
+[11/03/2025 18:27:28] Request: GET /Html/index.html
+[11/03/2025 18:27:28] Response: 304
+
+[11/03/2025 18:27:29] Request: GET /Css/style.css
+[11/03/2025 18:27:29] Response: 304
+
+[11/03/2025 18:27:29] Request: GET /Jobs
+[11/03/2025 18:27:29] Response: 200
+
+[11/03/2025 18:27:33] Request: GET /Js/user.js
+[11/03/2025 18:27:33] Response: 304
+
+[11/03/2025 18:27:33] Request: GET /Users
+[11/03/2025 18:27:33] Response: 200
+
+[11/03/2025 18:28:13] Request: GET /Html/user.html
+[11/03/2025 18:28:13] Response: 304
+
+[11/03/2025 18:28:13] Request: GET /Js/user.js
+[11/03/2025 18:28:13] Response: 304
+
+[11/03/2025 18:28:13] Request: GET /Users
+[11/03/2025 18:28:14] Response: 200
+
+[11/03/2025 18:28:15] Request: GET /Html/user.html
+[11/03/2025 18:28:15] Response: 304
+
+[11/03/2025 18:28:15] Request: GET /Users
+[11/03/2025 18:28:15] Response: 200
+
+[11/03/2025 18:28:28] Request: GET /Html/user.html
+[11/03/2025 18:28:28] Response: 304
+
+[11/03/2025 18:28:29] Request: GET /Users
+[11/03/2025 18:28:29] Response: 200
+
+[11/03/2025 18:28:30] Request: GET /Html/user.html
+[11/03/2025 18:28:30] Response: 304
+
+[11/03/2025 18:28:30] Request: GET /Users
+[11/03/2025 18:28:30] Response: 200
+
+[11/03/2025 18:28:40] Request: GET /Html/user.html
+[11/03/2025 18:28:40] Response: 304
+
+[11/03/2025 18:28:40] Request: GET /Js/user.js
+[11/03/2025 18:28:40] Response: 304
+
+[11/03/2025 18:28:40] Request: GET /Users
+[11/03/2025 18:28:40] Response: 200
+
+[11/03/2025 18:29:39] Request: GET /Html/user.html
+[11/03/2025 18:29:39] Response: 304
+
+[11/03/2025 18:29:39] Request: GET /Js/user.js
+[11/03/2025 18:29:39] Response: 304
+
+[11/03/2025 18:29:39] Request: GET /Users
+[11/03/2025 18:29:39] Response: 200
+
+[11/03/2025 18:29:40] Request: GET /Html/user.html
+[11/03/2025 18:29:40] Response: 304
+
+[11/03/2025 18:29:40] Request: GET /Users
+[11/03/2025 18:29:40] Response: 200
+
+[11/03/2025 18:30:12] Request: GET /Html/user.html
+[11/03/2025 18:30:12] Response: 304
+
+[11/03/2025 18:30:12] Request: GET /Users
+[11/03/2025 18:30:12] Response: 200
+
+[11/03/2025 18:30:14] Request: GET /Html/user.html
+[11/03/2025 18:30:14] Response: 304
+
+[11/03/2025 18:30:14] Request: GET /Js/user.js
+[11/03/2025 18:30:14] Response: 304
+
+[11/03/2025 18:30:14] Request: GET /Users
+[11/03/2025 18:30:14] Response: 200
+
+[11/03/2025 18:30:46] Request: GET /Html/index.html
+[11/03/2025 18:30:46] Response: 304
+
+[11/03/2025 18:30:47] Request: GET /Js/app.js
+[11/03/2025 18:30:47] Request: GET /Css/style.css
+[11/03/2025 18:30:47] Response: 304
+
+[11/03/2025 18:30:47] Response: 304
+
+[11/03/2025 18:30:47] Request: GET /Jobs
+[11/03/2025 18:30:47] Response: 200
+
+[11/03/2025 18:30:50] Request: GET /Users
+[11/03/2025 18:30:51] Response: 200
+
+[11/03/2025 18:31:51] Request: GET /
+[11/03/2025 18:31:51] Response: 307
+
+[11/03/2025 18:31:52] Request: GET /
+[11/03/2025 18:31:52] Response: 307
+
+[11/03/2025 18:31:52] Request: GET /Css/style.css
+[11/03/2025 18:31:52] Response: 304
+
+[11/03/2025 18:31:52] Request: GET /Jobs
+[11/03/2025 18:31:52] Response: 200
+
+[11/03/2025 18:31:55] Request: GET /Js/user.js
+[11/03/2025 18:31:55] Response: 304
+
+[11/03/2025 18:31:55] Request: GET /Users
+[11/03/2025 18:31:55] Response: 200
+
+[11/03/2025 18:31:57] Request: GET /Jobs
+[11/03/2025 18:31:57] Response: 200
+
+[11/03/2025 18:32:06] Request: POST /Login
+[11/03/2025 18:32:06] Response: 200
+
+[11/03/2025 18:32:07] Request: GET /Jobs
+[11/03/2025 18:32:07] Response: 200
+
+[11/03/2025 18:32:10] Request: GET /Users/GetAllUsers
+[11/03/2025 18:32:10] Response: 200
+
+[11/03/2025 18:32:13] Request: GET /Html/user.html
+[11/03/2025 18:32:13] Response: 304
+
+[11/03/2025 18:32:13] Request: GET /Users/GetAllUsers
+[11/03/2025 18:32:13] Response: 200
+
+[11/03/2025 18:32:21] Request: GET /Html/user.html
+[11/03/2025 18:32:21] Response: 200
+
+[11/03/2025 18:32:21] Request: GET /Js/user.js
+[11/03/2025 18:32:21] Response: 200
+
+[11/03/2025 18:32:21] Request: GET /Css/user.css
+[11/03/2025 18:32:21] Response: 200
+
+[11/03/2025 18:32:21] Request: GET /Users/GetAllUsers
+[11/03/2025 18:32:21] Response: 200
+
+[11/03/2025 18:33:21] Request: GET /Html/user.html
+[11/03/2025 18:33:21] Response: 200
+
+[11/03/2025 18:33:22] Request: GET /Css/user.css
+[11/03/2025 18:33:22] Request: GET /Js/user.js
+[11/03/2025 18:33:22] Response: 200
+
+[11/03/2025 18:33:22] Response: 200
+
+[11/03/2025 18:33:22] Request: GET /favicon.ico
+[11/03/2025 18:33:22] Response: 404
+
+[11/03/2025 18:33:22] Request: GET /Users/GetAllUsers
+[11/03/2025 18:33:22] Response: 200
+
+[11/03/2025 18:33:55] Request: GET /Html/user.html
+[11/03/2025 18:33:55] Response: 200
+
+[11/03/2025 18:33:55] Request: GET /Js/user.js
+[11/03/2025 18:33:55] Response: 200
+
+[11/03/2025 18:33:55] Request: GET /Css/user.css
+[11/03/2025 18:33:55] Response: 200
+
+[11/03/2025 18:33:55] Request: GET /favicon.ico
+[11/03/2025 18:33:55] Response: 404
+
+[11/03/2025 18:33:56] Request: GET /Users/GetAllUsers
+[11/03/2025 18:33:56] Response: 200
+
+[11/03/2025 18:35:50] Request: GET /Html/user.html
+[11/03/2025 18:35:50] Response: 200
+
+[11/03/2025 18:35:51] Request: GET /Js/user.js
+[11/03/2025 18:35:51] Response: 200
+
+[11/03/2025 18:35:51] Request: GET /Css/user.css
+[11/03/2025 18:35:51] Response: 200
+
+[11/03/2025 18:35:51] Request: GET /favicon.ico
+[11/03/2025 18:35:51] Response: 404
+
+[11/03/2025 18:35:51] Request: GET /Users/GetAllUsers
+[11/03/2025 18:35:51] Response: 200
+
+[11/03/2025 18:37:17] Request: GET /Css/user.css
+[11/03/2025 18:37:17] Response: 304
+
+[11/03/2025 18:37:20] Request: GET /favicon.ico
+[11/03/2025 18:37:20] Response: 404
+
+[11/03/2025 18:37:56] Request: GET /Html/user.html
+[11/03/2025 18:37:56] Response: 200
+
+[11/03/2025 18:37:56] Request: GET /Js/user.js
+[11/03/2025 18:37:56] Response: 200
+
+[11/03/2025 18:37:56] Request: GET /Css/user.css
+[11/03/2025 18:37:56] Response: 200
+
+[11/03/2025 18:37:56] Request: GET /favicon.ico
+[11/03/2025 18:37:56] Response: 404
+
+[11/03/2025 18:37:56] Request: GET /Users/GetAllUsers
+[11/03/2025 18:37:57] Response: 200
+
+[11/03/2025 18:39:11] Request: POST /Users
+[11/03/2025 18:39:11] Response: 200
+
+[11/03/2025 18:39:12] Request: GET /Users/GetAllUsers
+[11/03/2025 18:39:12] Response: 200
+
+[11/03/2025 18:39:31] Request: GET /Html/user.html
+[11/03/2025 18:39:32] Response: 200
+
+[11/03/2025 18:39:32] Request: GET /Js/user.js
+[11/03/2025 18:39:32] Response: 200
+
+[11/03/2025 18:39:32] Request: GET /Css/user.css
+[11/03/2025 18:39:32] Response: 200
+
+[11/03/2025 18:39:32] Request: GET /favicon.ico
+[11/03/2025 18:39:32] Response: 404
+
+[11/03/2025 18:39:32] Request: GET /Users/GetAllUsers
+[11/03/2025 18:39:32] Response: 200
+
+[11/03/2025 18:40:43] Request: GET /Html/user.html
+[11/03/2025 18:40:43] Response: 200
+
+[11/03/2025 18:40:43] Request: GET /Js/user.js
+[11/03/2025 18:40:43] Response: 200
+
+[11/03/2025 18:40:43] Request: GET /Css/user.css
+[11/03/2025 18:40:43] Response: 200
+
+[11/03/2025 18:40:43] Request: GET /favicon.ico
+[11/03/2025 18:40:43] Response: 404
+
+[11/03/2025 18:40:43] Request: GET /Users/GetAllUsers
+[11/03/2025 18:40:43] Response: 200
+
+[11/03/2025 18:43:45] Request: GET /Html/user.html
+[11/03/2025 18:43:45] Response: 200
+
+[11/03/2025 18:43:45] Request: GET /Js/user.js
+[11/03/2025 18:43:45] Response: 200
+
+[11/03/2025 18:43:45] Request: GET /Css/user.css
+[11/03/2025 18:43:45] Response: 200
+
+[11/03/2025 18:43:45] Request: GET /favicon.ico
+[11/03/2025 18:43:45] Response: 404
+
+[11/03/2025 18:43:45] Request: GET /Users/GetAllUsers
+[11/03/2025 18:43:45] Response: 200
+
+[11/03/2025 18:46:06] Request: GET /Html/user.html
+[11/03/2025 18:46:06] Response: 200
+
+[11/03/2025 18:46:06] Request: GET /Css/user.css
+[11/03/2025 18:46:06] Response: 200
+
+[11/03/2025 18:46:06] Request: GET /Js/user.js
+[11/03/2025 18:46:06] Response: 200
+
+[11/03/2025 18:46:06] Request: GET /favicon.ico
+[11/03/2025 18:46:06] Response: 404
+
+[11/03/2025 18:46:06] Request: GET /Users/GetAllUsers
+[11/03/2025 18:46:06] Response: 200
+
+[11/03/2025 18:46:31] Request: GET /Html/user.html
+[11/03/2025 18:46:31] Response: 304
+
+[11/03/2025 18:46:31] Request: GET /Css/user.css
+[11/03/2025 18:46:31] Request: GET /Js/user.js
+[11/03/2025 18:46:31] Response: 304
+
+[11/03/2025 18:46:31] Response: 304
+
+[11/03/2025 18:46:31] Request: GET /Users/GetAllUsers
+[11/03/2025 18:46:31] Response: 200
+
+[11/03/2025 18:47:02] Request: GET /Html/user.html
+[11/03/2025 18:47:02] Response: 304
+
+[11/03/2025 18:47:02] Request: GET /Css/user.css
+[11/03/2025 18:47:02] Response: 304
+
+[11/03/2025 18:47:02] Request: GET /Js/user.js
+[11/03/2025 18:47:02] Response: 200
+
+[11/03/2025 18:47:02] Request: GET /Users/GetAllUsers
+[11/03/2025 18:47:02] Response: 200
+
+[11/03/2025 18:47:28] Request: GET /Html/user.html
+[11/03/2025 18:47:28] Response: 200
+
+[11/03/2025 18:47:28] Request: GET /Css/user.css
+[11/03/2025 18:47:28] Request: GET /Js/user.js
+[11/03/2025 18:47:28] Response: 200
+
+[11/03/2025 18:47:28] Response: 200
+
+[11/03/2025 18:47:28] Request: GET /favicon.ico
+[11/03/2025 18:47:28] Response: 404
+
+[11/03/2025 18:47:28] Request: GET /Users/GetAllUsers
+[11/03/2025 18:47:28] Response: 200
+
+[11/03/2025 18:48:16] Request: GET /Html/user.html
+[11/03/2025 18:48:16] Response: 200
+
+[11/03/2025 18:48:16] Request: GET /Css/user.css
+[11/03/2025 18:48:16] Response: 200
+
+[11/03/2025 18:48:16] Request: GET /Js/user.js
+[11/03/2025 18:48:16] Response: 200
+
+[11/03/2025 18:48:16] Request: GET /favicon.ico
+[11/03/2025 18:48:16] Response: 404
+
+[11/03/2025 18:48:19] Request: GET /Html/user.html
+[11/03/2025 18:48:19] Response: 304
+
+[11/03/2025 18:48:20] Request: GET /Js/user.js
+[11/03/2025 18:48:20] Response: 304
+
+[11/03/2025 18:49:27] Request: GET /Html/user.html
+[11/03/2025 18:49:27] Response: 200
+
+[11/03/2025 18:49:27] Request: GET /Css/user.css
+[11/03/2025 18:49:27] Request: GET /Js/user.js
+[11/03/2025 18:49:28] Response: 200
+
+[11/03/2025 18:49:28] Response: 200
+
+[11/03/2025 18:49:28] Request: GET /Users/GetAllUsers
+[11/03/2025 18:49:28] Response: 200
+
+[11/03/2025 18:50:45] Request: GET /Html/user.html
+[11/03/2025 18:50:45] Response: 200
+
+[11/03/2025 18:50:45] Request: GET /Css/user.css
+[11/03/2025 18:50:45] Request: GET /Js/user.js
+[11/03/2025 18:50:45] Response: 200
+
+[11/03/2025 18:50:45] Response: 200
+
+[11/03/2025 18:50:46] Request: GET /favicon.ico
+[11/03/2025 18:50:46] Response: 404
+
+[11/03/2025 18:50:46] Request: GET /Users/GetAllUsers
+[11/03/2025 18:50:46] Response: 200
+
+[11/03/2025 18:51:28] Request: GET /Html/user.html
+[11/03/2025 18:51:28] Response: 200
+
+[11/03/2025 18:51:28] Request: GET /Js/user.js
+[11/03/2025 18:51:28] Response: 200
+
+[11/03/2025 18:51:28] Request: GET /Css/user.css
+[11/03/2025 18:51:28] Response: 200
+
+[11/03/2025 18:51:28] Request: GET /favicon.ico
+[11/03/2025 18:51:28] Response: 404
+
+[11/03/2025 18:51:28] Request: GET /Users/GetAllUsers
+[11/03/2025 18:51:28] Response: 200
+
+[11/03/2025 18:52:07] Request: PUT /Users/1234
+[11/03/2025 18:52:07] Response: 201
+
+[11/03/2025 18:52:07] Request: GET /Users/GetAllUsers
+[11/03/2025 18:52:07] Response: 200
+
+[11/03/2025 18:54:47] Request: GET /Html/user.html
+[11/03/2025 18:54:47] Response: 200
+
+[11/03/2025 18:54:47] Request: GET /Css/user.css
+[11/03/2025 18:54:47] Response: 200
+
+[11/03/2025 18:54:47] Request: GET /Js/user.js
+[11/03/2025 18:54:47] Response: 200
+
+[11/03/2025 18:54:47] Request: GET /favicon.ico
+[11/03/2025 18:54:47] Response: 404
+
+[11/03/2025 18:54:47] Request: GET /Users/GetAllUsers
+[11/03/2025 18:54:47] Response: 200
+
+[11/03/2025 18:55:40] Request: GET /Html/user.html
+[11/03/2025 18:55:40] Response: 200
+
+[11/03/2025 18:55:40] Request: GET /Css/user.css
+[11/03/2025 18:55:40] Response: 200
+
+[11/03/2025 18:55:40] Request: GET /Js/user.js
+[11/03/2025 18:55:40] Response: 200
+
+[11/03/2025 18:55:40] Request: GET /favicon.ico
+[11/03/2025 18:55:40] Response: 404
+
+[11/03/2025 18:55:41] Request: GET /Users/GetAllUsers
+[11/03/2025 18:55:41] Response: 200
+
+[11/03/2025 18:55:43] Request: GET /Html/user.html
+[11/03/2025 18:55:43] Response: 304
+
+[11/03/2025 18:55:43] Request: GET /Users/GetAllUsers
+[11/03/2025 18:55:43] Response: 200
+
+[11/03/2025 18:58:26] Request: GET /Html/user.html
+[11/03/2025 18:58:26] Response: 200
+
+[11/03/2025 18:58:26] Request: GET /Css/user.css
+[11/03/2025 18:58:26] Response: 304
+
+[11/03/2025 18:58:26] Request: GET /Js/user.js
+[11/03/2025 18:58:26] Response: 200
+
+[11/03/2025 18:58:27] Request: GET /Users/GetAllUsers
+[11/03/2025 18:58:27] Response: 200
+
+[11/03/2025 18:58:28] Request: GET /Html/user.html
+[11/03/2025 18:58:28] Response: 200
+
+[11/03/2025 18:58:28] Request: GET /Css/user.css
+[11/03/2025 18:58:28] Request: GET /Js/user.js
+[11/03/2025 18:58:28] Response: 200
+
+[11/03/2025 18:58:28] Response: 200
+
+[11/03/2025 18:58:28] Request: GET /favicon.ico
+[11/03/2025 18:58:28] Response: 404
+
+[11/03/2025 18:58:28] Request: GET /Users/GetAllUsers
+[11/03/2025 18:58:28] Response: 200
+
+[11/03/2025 19:00:36] Request: GET /Html/user.html
+[11/03/2025 19:00:36] Response: 304
+
+[11/03/2025 19:00:36] Request: GET /Css/user.css
+[11/03/2025 19:00:36] Response: 304
+
+[11/03/2025 19:00:36] Request: GET /Js/user.js
+[11/03/2025 19:00:36] Response: 200
+
+[11/03/2025 19:00:36] Request: GET /Users/GetAllUsers
+[11/03/2025 19:00:36] Response: 200
+
+[11/03/2025 19:00:41] Request: GET /Html/user.html
+[11/03/2025 19:00:41] Response: 200
+
+[11/03/2025 19:00:41] Request: GET /Js/user.js
+[11/03/2025 19:00:41] Request: GET /Css/user.css
+[11/03/2025 19:00:41] Response: 200
+
+[11/03/2025 19:00:41] Request: GET /favicon.ico
+[11/03/2025 19:00:41] Response: 404
+
+[11/03/2025 19:00:41] Request: GET /Users/GetAllUsers
+[11/03/2025 19:00:41] Response: 200
+
+[11/03/2025 19:00:43] Request: GET /Html/user.html
+[11/03/2025 19:00:43] Response: 200
+
+[11/03/2025 19:00:43] Request: GET /Css/user.css
+[11/03/2025 19:00:43] Request: GET /Js/user.js
+[11/03/2025 19:00:43] Response: 200
+
+[11/03/2025 19:00:43] Response: 200
+
+[11/03/2025 19:00:43] Request: GET /favicon.ico
+[11/03/2025 19:00:43] Response: 404
+
+[11/03/2025 19:00:44] Request: GET /Users/GetAllUsers
+[11/03/2025 19:00:44] Response: 200
+
+[11/03/2025 19:01:46] Request: GET /Html/user.html
+[11/03/2025 19:01:46] Response: 304
+
+[11/03/2025 19:01:46] Request: GET /Js/user.js
+[11/03/2025 19:01:46] Response: 304
+
+[11/03/2025 19:01:46] Request: GET /Css/user.css
+[11/03/2025 19:01:46] Response: 200
+
+[11/03/2025 19:01:46] Request: GET /Users/GetAllUsers
+[11/03/2025 19:01:46] Response: 200
+
+[11/03/2025 19:01:59] Request: DELETE /Users/456
+[11/03/2025 19:01:59] Response: 201
+
+[11/03/2025 19:01:59] Request: GET /Users/GetAllUsers
+[11/03/2025 19:01:59] Response: 200
+
+[11/03/2025 19:05:58] Request: GET /Html/user.html
+[11/03/2025 19:05:58] Response: 200
+
+[11/03/2025 19:05:58] Request: GET /Js/user.js
+[11/03/2025 19:05:58] Response: 304
+
+[11/03/2025 19:05:58] Request: GET /Css/user.css
+[11/03/2025 19:05:58] Response: 200
+
+[11/03/2025 19:05:58] Request: GET /Users/GetAllUsers
+[11/03/2025 19:05:58] Response: 200
+
+[11/03/2025 19:06:01] Request: GET /Html/user.html
+[11/03/2025 19:06:01] Response: 200
+
+[11/03/2025 19:06:02] Request: GET /Css/user.css
+[11/03/2025 19:06:02] Request: GET /Js/user.js
+[11/03/2025 19:06:02] Response: 200
+
+[11/03/2025 19:06:02] Response: 200
+
+[11/03/2025 19:06:02] Request: GET /favicon.ico
+[11/03/2025 19:06:02] Response: 404
+
+[11/03/2025 19:06:02] Request: GET /Users/GetAllUsers
+[11/03/2025 19:06:02] Response: 200
+
+[11/03/2025 19:06:51] Request: GET /Html/user.html
+[11/03/2025 19:06:51] Response: 304
+
+[11/03/2025 19:06:51] Request: GET /Js/user.js
+[11/03/2025 19:06:51] Request: GET /Css/user.css
+[11/03/2025 19:06:51] Response: 304
+
+[11/03/2025 19:06:51] Response: 200
+
+[11/03/2025 19:06:51] Request: GET /Users/GetAllUsers
+[11/03/2025 19:06:51] Response: 200
+
+[11/03/2025 19:06:57] Request: GET /Html/user.html
+[11/03/2025 19:06:57] Response: 200
+
+[11/03/2025 19:06:57] Request: GET /Css/user.css
+[11/03/2025 19:06:57] Request: GET /Js/user.js
+[11/03/2025 19:06:57] Response: 200
+
+[11/03/2025 19:06:57] Response: 200
+
+[11/03/2025 19:06:57] Request: GET /favicon.ico
+[11/03/2025 19:06:57] Response: 404
+
+[11/03/2025 19:06:57] Request: GET /Users/GetAllUsers
+[11/03/2025 19:06:58] Response: 200
+
+[11/03/2025 19:07:10] Request: GET /Html/user.html
+[11/03/2025 19:07:10] Response: 304
+
+[11/03/2025 19:07:10] Request: GET /Css/user.css
+[11/03/2025 19:07:10] Response: 200
+
+[11/03/2025 19:07:10] Request: GET /Users/GetAllUsers
+[11/03/2025 19:07:10] Response: 200
+
+[11/03/2025 19:13:13] Request: GET /Html/user.html
+[11/03/2025 19:13:13] Response: 200
+
+[11/03/2025 19:13:13] Request: GET /Js/user.js
+[11/03/2025 19:13:13] Response: 304
+
+[11/03/2025 19:13:13] Request: GET /Css/user.css
+[11/03/2025 19:13:13] Response: 200
+
+[11/03/2025 19:13:13] Request: GET /Users/GetAllUsers
+[11/03/2025 19:13:13] Response: 200
+
+[11/03/2025 19:14:01] Request: GET /Html/user.html
+[11/03/2025 19:14:01] Response: 200
+
+[11/03/2025 19:14:01] Request: GET /Js/user.js
+[11/03/2025 19:14:01] Response: 200
+
+[11/03/2025 19:14:01] Request: GET /Css/user.css
+[11/03/2025 19:14:01] Response: 200
+
+[11/03/2025 19:14:01] Request: GET /favicon.ico
+[11/03/2025 19:14:01] Response: 404
+
+[11/03/2025 19:14:01] Request: GET /Users/GetAllUsers
+[11/03/2025 19:14:01] Response: 200
+
+[11/03/2025 19:15:12] Request: GET /Html/user.html
+[11/03/2025 19:15:12] Response: 304
+
+[11/03/2025 19:15:12] Request: GET /Css/user.css
+[11/03/2025 19:15:12] Response: 200
+
+[11/03/2025 19:15:12] Request: GET /Users/GetAllUsers
+[11/03/2025 19:15:12] Response: 200
+
+[11/03/2025 19:15:23] Request: GET /Html/user.html
+[11/03/2025 19:15:23] Response: 304
+
+[11/03/2025 19:15:23] Request: GET /Js/user.js
+[11/03/2025 19:15:23] Response: 304
+
+[11/03/2025 19:15:23] Request: GET /Css/user.css
+[11/03/2025 19:15:23] Response: 200
+
+[11/03/2025 19:15:23] Request: GET /Users/GetAllUsers
+[11/03/2025 19:15:23] Response: 200
+
+[11/03/2025 19:15:26] Request: GET /Html/user.html
+[11/03/2025 19:15:26] Response: 200
+
+[11/03/2025 19:15:26] Request: GET /Css/user.css
+[11/03/2025 19:15:26] Response: 200
+
+[11/03/2025 19:15:26] Request: GET /Js/user.js
+[11/03/2025 19:15:26] Response: 200
+
+[11/03/2025 19:15:26] Request: GET /favicon.ico
+[11/03/2025 19:15:26] Response: 404
+
+[11/03/2025 19:15:26] Request: GET /Users/GetAllUsers
+[11/03/2025 19:15:26] Response: 200
+
+[11/03/2025 19:16:55] Request: GET /Html/user.html
+[11/03/2025 19:16:55] Response: 304
+
+[11/03/2025 19:16:56] Request: GET /Js/user.js
+[11/03/2025 19:16:56] Response: 304
+
+[11/03/2025 19:16:56] Request: GET /Css/user.css
+[11/03/2025 19:16:56] Response: 200
+
+[11/03/2025 19:16:56] Request: GET /Users/GetAllUsers
+[11/03/2025 19:16:56] Response: 200
+
+[11/03/2025 19:16:58] Request: GET /Html/user.html
+[11/03/2025 19:16:58] Response: 200
+
+[11/03/2025 19:16:58] Request: GET /Js/user.js
+[11/03/2025 19:16:58] Request: GET /Css/user.css
+[11/03/2025 19:16:58] Response: 200
+
+[11/03/2025 19:16:58] Response: 200
+
+[11/03/2025 19:16:58] Request: GET /favicon.ico
+[11/03/2025 19:16:58] Response: 404
+
+[11/03/2025 19:16:58] Request: GET /Users/GetAllUsers
+[11/03/2025 19:16:58] Response: 200
+
+[11/03/2025 19:18:43] Request: GET /Html/user.html
+[11/03/2025 19:18:43] Response: 304
+
+[11/03/2025 19:18:43] Request: GET /Js/user.js
+[11/03/2025 19:18:43] Response: 304
+
+[11/03/2025 19:18:43] Request: GET /Css/user.css
+[11/03/2025 19:18:43] Response: 200
+
+[11/03/2025 19:18:43] Request: GET /Users/GetAllUsers
+[11/03/2025 19:18:43] Response: 200
+
+[11/03/2025 19:19:58] Request: GET /Html/user.html
+[11/03/2025 19:19:58] Response: 304
+
+[11/03/2025 19:19:58] Request: GET /Css/user.css
+[11/03/2025 19:19:58] Response: 200
+
+[11/03/2025 19:19:58] Request: GET /Users/GetAllUsers
+[11/03/2025 19:19:58] Response: 200
+
+[11/03/2025 19:20:09] Request: GET /Html/user.html
+[11/03/2025 19:20:09] Response: 304
+
+[11/03/2025 19:20:09] Request: GET /Css/user.css
+[11/03/2025 19:20:09] Response: 200
+
+[11/03/2025 19:20:09] Request: GET /Users/GetAllUsers
+[11/03/2025 19:20:09] Response: 200
+
+[11/03/2025 19:20:22] Request: GET /Html/user.html
+[11/03/2025 19:20:22] Response: 304
+
+[11/03/2025 19:20:22] Request: GET /Css/user.css
+[11/03/2025 19:20:22] Response: 200
+
+[11/03/2025 19:20:22] Request: GET /Users/GetAllUsers
+[11/03/2025 19:20:22] Response: 200
+
+[11/03/2025 19:21:51] Request: GET /Html/user.html
+[11/03/2025 19:21:51] Response: 304
+
+[11/03/2025 19:21:51] Request: GET /Js/user.js
+[11/03/2025 19:21:51] Response: 304
+
+[11/03/2025 19:21:51] Request: GET /Css/user.css
+[11/03/2025 19:21:51] Response: 200
+
+[11/03/2025 19:21:52] Request: GET /Users/GetAllUsers
+[11/03/2025 19:21:52] Response: 200
+
+[11/03/2025 19:22:07] Request: GET /Html/user.html
+[11/03/2025 19:22:07] Response: 304
+
+[11/03/2025 19:22:07] Request: GET /Css/user.css
+[11/03/2025 19:22:07] Response: 200
+
+[11/03/2025 19:22:07] Request: GET /Users/GetAllUsers
+[11/03/2025 19:22:07] Response: 200
+
+[11/03/2025 19:23:50] Request: GET /Html/user.html
+[11/03/2025 19:23:50] Response: 304
+
+[11/03/2025 19:23:50] Request: GET /Css/user.css
+[11/03/2025 19:23:50] Response: 200
+
+[11/03/2025 19:23:50] Request: GET /Users/GetAllUsers
+[11/03/2025 19:23:50] Response: 200
+
+[11/03/2025 19:24:46] Request: GET /Html/user.html
+[11/03/2025 19:24:46] Response: 304
+
+[11/03/2025 19:24:46] Request: GET /Js/user.js
+[11/03/2025 19:24:46] Request: GET /Css/user.css
+[11/03/2025 19:24:46] Response: 200
+
+[11/03/2025 19:24:46] Response: 304
+
+[11/03/2025 19:24:47] Request: GET /Users/GetAllUsers
+[11/03/2025 19:24:47] Response: 200
+
+[11/03/2025 19:25:09] Request: GET /Html/user.html
+[11/03/2025 19:25:09] Response: 304
+
+[11/03/2025 19:25:10] Request: GET /Css/user.css
+[11/03/2025 19:25:10] Response: 200
+
+[11/03/2025 19:25:10] Request: GET /Users/GetAllUsers
+[11/03/2025 19:25:10] Response: 200
+
+[11/03/2025 19:25:19] Request: GET /Html/user.html
+[11/03/2025 19:25:19] Response: 304
+
+[11/03/2025 19:25:19] Request: GET /Css/user.css
+[11/03/2025 19:25:19] Response: 200
+
+[11/03/2025 19:25:20] Request: GET /Users/GetAllUsers
+[11/03/2025 19:25:20] Response: 200
+
+[11/03/2025 19:25:41] Request: GET /Html/user.html
+[11/03/2025 19:25:41] Response: 304
+
+[11/03/2025 19:25:41] Request: GET /Css/user.css
+[11/03/2025 19:25:41] Response: 200
+
+[11/03/2025 19:25:41] Request: GET /Users/GetAllUsers
+[11/03/2025 19:25:41] Response: 200
+
+[11/03/2025 19:25:59] Request: GET /Html/user.html
+[11/03/2025 19:25:59] Response: 304
+
+[11/03/2025 19:25:59] Request: GET /Css/user.css
+[11/03/2025 19:25:59] Response: 200
+
+[11/03/2025 19:25:59] Request: GET /Users/GetAllUsers
+[11/03/2025 19:25:59] Response: 200
+
+[11/03/2025 19:26:30] Request: GET /Html/user.html
+[11/03/2025 19:26:30] Response: 304
+
+[11/03/2025 19:26:30] Request: GET /Css/user.css
+[11/03/2025 19:26:30] Response: 200
+
+[11/03/2025 19:26:30] Request: GET /Users/GetAllUsers
+[11/03/2025 19:26:30] Response: 200
+
+[11/03/2025 19:26:49] Request: GET /Html/user.html
+[11/03/2025 19:26:49] Response: 304
+
+[11/03/2025 19:26:49] Request: GET /Css/user.css
+[11/03/2025 19:26:49] Response: 200
+
+[11/03/2025 19:26:49] Request: GET /Users/GetAllUsers
+[11/03/2025 19:26:49] Response: 200
+
+[11/03/2025 19:27:01] Request: GET /Html/user.html
+[11/03/2025 19:27:01] Response: 304
+
+[11/03/2025 19:27:01] Request: GET /Css/user.css
+[11/03/2025 19:27:01] Response: 200
+
+[11/03/2025 19:27:01] Request: GET /Users/GetAllUsers
+[11/03/2025 19:27:01] Response: 200
+
+[11/03/2025 19:27:18] Request: GET /Html/user.html
+[11/03/2025 19:27:18] Response: 304
+
+[11/03/2025 19:27:18] Request: GET /Js/user.js
+[11/03/2025 19:27:18] Response: 304
+
+[11/03/2025 19:27:18] Request: GET /Css/user.css
+[11/03/2025 19:27:18] Response: 200
+
+[11/03/2025 19:27:18] Request: GET /Users/GetAllUsers
+[11/03/2025 19:27:18] Response: 200
+
+[11/03/2025 19:27:36] Request: GET /Html/user.html
+[11/03/2025 19:27:36] Response: 304
+
+[11/03/2025 19:27:36] Request: GET /Css/user.css
+[11/03/2025 19:27:36] Response: 200
+
+[11/03/2025 19:27:36] Request: GET /Users/GetAllUsers
+[11/03/2025 19:27:36] Response: 200
+
+[11/03/2025 19:27:46] Request: GET /Html/user.html
+[11/03/2025 19:27:46] Response: 304
+
+[11/03/2025 19:27:46] Request: GET /Css/user.css
+[11/03/2025 19:27:46] Response: 200
+
+[11/03/2025 19:27:46] Request: GET /Users/GetAllUsers
+[11/03/2025 19:27:46] Response: 200
+
+[11/03/2025 19:28:32] Request: GET /Html/user.html
+[11/03/2025 19:28:32] Response: 304
+
+[11/03/2025 19:28:32] Request: GET /Css/user.css
+[11/03/2025 19:28:32] Response: 200
+
+[11/03/2025 19:28:33] Request: GET /Users/GetAllUsers
+[11/03/2025 19:28:33] Response: 200
+
+[11/03/2025 19:30:04] Request: GET /Html/user.html
+[11/03/2025 19:30:04] Response: 200
+
+[11/03/2025 19:30:04] Request: GET /Css/user.css
+[11/03/2025 19:30:04] Request: GET /Js/user.js
+[11/03/2025 19:30:04] Response: 304
+
+[11/03/2025 19:30:04] Response: 304
+
+[11/03/2025 19:30:04] Request: GET /Users/GetAllUsers
+[11/03/2025 19:30:04] Response: 200
+
+[11/03/2025 19:30:06] Request: GET /Html/user.html
+[11/03/2025 19:30:06] Response: 304
+
+[11/03/2025 19:30:06] Request: GET /Users/GetAllUsers
+[11/03/2025 19:30:06] Response: 200
+
+[11/03/2025 19:30:33] Request: GET /Html/user.html
+[11/03/2025 19:30:33] Response: 304
+
+[11/03/2025 19:30:33] Request: GET /Css/user.css
+[11/03/2025 19:30:33] Response: 304
+
+[11/03/2025 19:30:33] Request: GET /Users/GetAllUsers
+[11/03/2025 19:30:33] Response: 200
+
+[11/03/2025 19:31:30] Request: GET /Html/user.html
+[11/03/2025 19:31:30] Response: 304
+
+[11/03/2025 19:31:30] Request: GET /Css/user.css
+[11/03/2025 19:31:30] Response: 304
+
+[11/03/2025 19:31:30] Request: GET /Users/GetAllUsers
+[11/03/2025 19:31:30] Response: 200
+
+[11/03/2025 19:31:31] Request: GET /Html/user.html
+[11/03/2025 19:31:31] Response: 304
+
+[11/03/2025 19:31:32] Request: GET /Users/GetAllUsers
+[11/03/2025 19:31:32] Response: 200
+
+[11/03/2025 19:31:57] Request: GET /Html/user.html
+[11/03/2025 19:31:57] Response: 200
+
+[11/03/2025 19:31:57] Request: GET /Css/user.css
+[11/03/2025 19:31:57] Response: 304
+
+[11/03/2025 19:31:57] Request: GET /Users/GetAllUsers
+[11/03/2025 19:31:57] Response: 200
+
+[11/03/2025 19:34:25] Request: GET /Html/user.html
+[11/03/2025 19:34:25] Response: 200
+
+[11/03/2025 19:34:25] Request: GET /Css/user.css
+[11/03/2025 19:34:25] Response: 200
+
+[11/03/2025 19:34:25] Request: GET /Js/user.js
+[11/03/2025 19:34:25] Response: 200
+
+[11/03/2025 19:34:25] Request: GET /favicon.ico
+[11/03/2025 19:34:25] Response: 404
+
+[11/03/2025 19:34:25] Request: GET /Users/GetAllUsers
+[11/03/2025 19:34:25] Response: 200
+
+[11/03/2025 19:35:22] Request: GET /Html/user.html
+[11/03/2025 19:35:22] Response: 304
+
+[11/03/2025 19:35:22] Request: GET /Js/user.js
+[11/03/2025 19:35:22] Response: 304
+
+[11/03/2025 19:35:22] Request: GET /Css/user.css
+[11/03/2025 19:35:22] Response: 200
+
+[11/03/2025 19:35:22] Request: GET /Users/GetAllUsers
+[11/03/2025 19:35:22] Response: 200
+
+[11/03/2025 19:35:43] Request: GET /Html/user.html
+[11/03/2025 19:35:43] Response: 304
+
+[11/03/2025 19:35:43] Request: GET /Js/user.js
+[11/03/2025 19:35:43] Response: 304
+
+[11/03/2025 19:35:43] Request: GET /Css/user.css
+[11/03/2025 19:35:43] Response: 200
+
+[11/03/2025 19:35:43] Request: GET /Users/GetAllUsers
+[11/03/2025 19:35:43] Response: 200
+
+[11/03/2025 19:35:52] Request: GET /Html/user.html
+[11/03/2025 19:35:52] Response: 304
+
+[11/03/2025 19:35:52] Request: GET /Css/user.css
+[11/03/2025 19:35:52] Response: 200
+
+[11/03/2025 19:35:52] Request: GET /Users/GetAllUsers
+[11/03/2025 19:35:52] Response: 200
+
+[11/03/2025 19:36:03] Request: GET /Html/user.html
+[11/03/2025 19:36:03] Response: 304
+
+[11/03/2025 19:36:03] Request: GET /Js/user.js
+[11/03/2025 19:36:03] Response: 304
+
+[11/03/2025 19:36:03] Request: GET /Css/user.css
+[11/03/2025 19:36:03] Response: 200
+
+[11/03/2025 19:36:04] Request: GET /Users/GetAllUsers
+[11/03/2025 19:36:04] Response: 200
+
+[11/03/2025 19:38:08] Request: GET /Html/user.html
+[11/03/2025 19:38:08] Response: 200
+
+[11/03/2025 19:38:08] Request: GET /Js/user.js
+[11/03/2025 19:38:08] Response: 304
+
+[11/03/2025 19:38:08] Request: GET /Css/user.css
+[11/03/2025 19:38:08] Response: 200
+
+[11/03/2025 19:38:08] Request: GET /Users/GetAllUsers
+[11/03/2025 19:38:08] Response: 200
+
+[11/03/2025 19:40:07] Request: GET /Html/user.html
+[11/03/2025 19:40:07] Response: 200
+
+[11/03/2025 19:40:07] Request: GET /Js/user.js
+[11/03/2025 19:40:07] Request: GET /Css/user.css
+[11/03/2025 19:40:07] Response: 200
+
+[11/03/2025 19:40:07] Response: 304
+
+[11/03/2025 19:40:07] Request: GET /Users/GetAllUsers
+[11/03/2025 19:40:07] Response: 200
+
+[11/03/2025 19:40:29] Request: GET /Html/user.html
+[11/03/2025 19:40:29] Response: 304
+
+[11/03/2025 19:40:29] Request: GET /Css/user.css
+[11/03/2025 19:40:29] Response: 200
+
+[11/03/2025 19:40:29] Request: GET /Users/GetAllUsers
+[11/03/2025 19:40:29] Response: 200
+
+[11/03/2025 19:41:26] Request: GET /Html/user.html
+[11/03/2025 19:41:26] Response: 200
+
+[11/03/2025 19:41:26] Request: GET /Js/user.js
+[11/03/2025 19:41:26] Response: 304
+
+[11/03/2025 19:41:26] Request: GET /Css/user.css
+[11/03/2025 19:41:26] Response: 200
+
+[11/03/2025 19:41:26] Request: GET /Users/GetAllUsers
+[11/03/2025 19:41:26] Response: 200
+
+[11/03/2025 19:41:27] Request: GET /Html/user.html
+[11/03/2025 19:41:27] Response: 304
+
+[11/03/2025 19:41:27] Request: GET /Css/user.css
+[11/03/2025 19:41:27] Response: 304
+
+[11/03/2025 19:41:27] Request: GET /Users/GetAllUsers
+[11/03/2025 19:41:27] Response: 200
+
+[11/03/2025 19:41:57] Request: GET /Html/user.html
+[11/03/2025 19:41:57] Response: 304
+
+[11/03/2025 19:41:57] Request: GET /Css/user.css
+[11/03/2025 19:41:57] Response: 200
+
+[11/03/2025 19:41:57] Request: GET /Users/GetAllUsers
+[11/03/2025 19:41:57] Response: 200
+
+[11/03/2025 19:42:11] Request: GET /Html/user.html
+[11/03/2025 19:42:11] Response: 304
+
+[11/03/2025 19:42:11] Request: GET /Css/user.css
+[11/03/2025 19:42:11] Response: 200
+
+[11/03/2025 19:42:11] Request: GET /Users/GetAllUsers
+[11/03/2025 19:42:11] Response: 200
+
+[11/03/2025 19:42:26] Request: GET /Html/user.html
+[11/03/2025 19:42:26] Response: 304
+
+[11/03/2025 19:42:26] Request: GET /Js/user.js
+[11/03/2025 19:42:26] Response: 304
+
+[11/03/2025 19:42:26] Request: GET /Css/user.css
+[11/03/2025 19:42:26] Response: 200
+
+[11/03/2025 19:42:26] Request: GET /Users/GetAllUsers
+[11/03/2025 19:42:26] Response: 200
+
+[11/03/2025 19:42:35] Request: GET /Html/user.html
+[11/03/2025 19:42:35] Response: 304
+
+[11/03/2025 19:42:35] Request: GET /Css/user.css
+[11/03/2025 19:42:35] Response: 200
+
+[11/03/2025 19:42:35] Request: GET /Users/GetAllUsers
+[11/03/2025 19:42:35] Response: 200
+
+[11/03/2025 19:42:45] Request: GET /Html/user.html
+[11/03/2025 19:42:45] Response: 304
+
+[11/03/2025 19:42:45] Request: GET /Css/user.css
+[11/03/2025 19:42:45] Response: 200
+
+[11/03/2025 19:42:45] Request: GET /Users/GetAllUsers
+[11/03/2025 19:42:45] Response: 200
+
+[11/03/2025 19:43:23] Request: GET /Html/user.html
+[11/03/2025 19:43:23] Response: 304
+
+[11/03/2025 19:43:23] Request: GET /Css/user.css
+[11/03/2025 19:43:23] Response: 200
+
+[11/03/2025 19:43:23] Request: GET /Users/GetAllUsers
+[11/03/2025 19:43:24] Response: 200
+
+[11/03/2025 19:43:33] Request: GET /Html/user.html
+[11/03/2025 19:43:33] Response: 304
+
+[11/03/2025 19:43:33] Request: GET /Js/user.js
+[11/03/2025 19:43:33] Response: 304
+
+[11/03/2025 19:43:33] Request: GET /Css/user.css
+[11/03/2025 19:43:33] Response: 200
+
+[11/03/2025 19:43:33] Request: GET /Users/GetAllUsers
+[11/03/2025 19:43:33] Response: 200
+
+[11/03/2025 19:43:44] Request: GET /Html/user.html
+[11/03/2025 19:43:44] Response: 304
+
+[11/03/2025 19:43:44] Request: GET /Css/user.css
+[11/03/2025 19:43:44] Response: 200
+
+[11/03/2025 19:43:45] Request: GET /Users/GetAllUsers
+[11/03/2025 19:43:45] Response: 200
+
+[11/03/2025 19:43:52] Request: GET /Html/user.html
+[11/03/2025 19:43:52] Response: 304
+
+[11/03/2025 19:43:52] Request: GET /Css/user.css
+[11/03/2025 19:43:52] Response: 200
+
+[11/03/2025 19:43:52] Request: GET /Users/GetAllUsers
+[11/03/2025 19:43:52] Response: 200
+
+[11/03/2025 19:44:17] Request: GET /Html/user.html
+[11/03/2025 19:44:17] Response: 304
+
+[11/03/2025 19:44:17] Request: GET /Css/user.css
+[11/03/2025 19:44:17] Response: 200
+
+[11/03/2025 19:44:17] Request: GET /Users/GetAllUsers
+[11/03/2025 19:44:17] Response: 200
+
+[11/03/2025 19:44:26] Request: GET /Html/user.html
+[11/03/2025 19:44:26] Response: 304
+
+[11/03/2025 19:44:26] Request: GET /Css/user.css
+[11/03/2025 19:44:26] Response: 200
+
+[11/03/2025 19:44:27] Request: GET /Users/GetAllUsers
+[11/03/2025 19:44:27] Response: 200
+
+[11/03/2025 19:44:51] Request: GET /Html/user.html
+[11/03/2025 19:44:51] Response: 304
+
+[11/03/2025 19:44:51] Request: GET /Js/user.js
+[11/03/2025 19:44:51] Response: 304
+
+[11/03/2025 19:44:51] Request: GET /Css/user.css
+[11/03/2025 19:44:51] Response: 200
+
+[11/03/2025 19:44:51] Request: GET /Users/GetAllUsers
+[11/03/2025 19:44:51] Response: 200
+
+[11/03/2025 19:45:01] Request: GET /Html/user.html
+[11/03/2025 19:45:01] Response: 304
+
+[11/03/2025 19:45:01] Request: GET /Css/user.css
+[11/03/2025 19:45:01] Response: 200
+
+[11/03/2025 19:45:01] Request: GET /Users/GetAllUsers
+[11/03/2025 19:45:01] Response: 200
+
+[11/03/2025 19:45:10] Request: GET /Html/user.html
+[11/03/2025 19:45:10] Response: 304
+
+[11/03/2025 19:45:10] Request: GET /Css/user.css
+[11/03/2025 19:45:10] Response: 200
+
+[11/03/2025 19:45:10] Request: GET /Users/GetAllUsers
+[11/03/2025 19:45:10] Response: 200
+
+[11/03/2025 19:45:19] Request: GET /Html/user.html
+[11/03/2025 19:45:19] Response: 304
+
+[11/03/2025 19:45:19] Request: GET /Css/user.css
+[11/03/2025 19:45:19] Response: 200
+
+[11/03/2025 19:45:20] Request: GET /Users/GetAllUsers
+[11/03/2025 19:45:20] Response: 200
+
+[11/03/2025 19:45:41] Request: DELETE /Users/RS
+[11/03/2025 19:45:41] Response: 201
+
+[11/03/2025 19:45:41] Request: GET /Users/GetAllUsers
+[11/03/2025 19:45:41] Response: 200
+
+[11/03/2025 19:46:25] Request: GET /Html/user.html
+[11/03/2025 19:46:25] Response: 304
+
+[11/03/2025 19:46:25] Request: GET /Css/user.css
+[11/03/2025 19:46:25] Request: GET /Js/user.js
+[11/03/2025 19:46:25] Response: 304
+
+[11/03/2025 19:46:25] Response: 304
+
+[11/03/2025 19:46:25] Request: GET /Users/GetAllUsers
+[11/03/2025 19:46:25] Response: 200
+
+[11/03/2025 19:46:41] Request: POST /Users
+[11/03/2025 19:46:41] Response: 200
+
+[11/03/2025 19:46:41] Request: GET /Users/GetAllUsers
+[11/03/2025 19:46:41] Response: 200
+
+[11/03/2025 19:46:46] Request: DELETE /Users/123
+[11/03/2025 19:46:46] Response: 201
+
+[11/03/2025 19:46:47] Request: GET /Users/GetAllUsers
+[11/03/2025 19:46:47] Response: 200
+
+[11/03/2025 19:46:51] Request: PUT /Users/ML
+[11/03/2025 19:46:52] Response: 201
+
+[11/03/2025 19:46:52] Request: POST /Login
+[11/03/2025 19:46:52] Response: 200
+
+[11/03/2025 19:46:52] Request: GET /Users/GetAllUsers
+[11/03/2025 19:46:52] Response: 200
+
+[11/03/2025 19:48:37] Request: GET /Html/user.html
+[11/03/2025 19:48:37] Response: 200
+
+[11/03/2025 19:48:37] Request: GET /Css/user.css
+[11/03/2025 19:48:37] Response: 304
+
+[11/03/2025 19:48:37] Request: GET /Js/user.js
+[11/03/2025 19:48:37] Response: 200
+
+[11/03/2025 19:48:37] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:37] Response: 200
+
+[11/03/2025 19:48:43] Request: POST /Users
+[11/03/2025 19:48:43] Response: 200
+
+[11/03/2025 19:48:44] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:44] Response: 200
+
+[11/03/2025 19:48:47] Request: DELETE /Users/null
+[11/03/2025 19:48:47] Response: 400
+
+[11/03/2025 19:48:47] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:47] Response: 200
+
+[11/03/2025 19:48:49] Request: DELETE /Users/null
+[11/03/2025 19:48:49] Response: 400
+
+[11/03/2025 19:48:49] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:50] Response: 200
+
+[11/03/2025 19:48:50] Request: DELETE /Users/null
+[11/03/2025 19:48:50] Response: 400
+
+[11/03/2025 19:48:50] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:51] Response: 200
+
+[11/03/2025 19:48:53] Request: DELETE /Users/null
+[11/03/2025 19:48:53] Response: 400
+
+[11/03/2025 19:48:53] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:53] Response: 200
+
+[11/03/2025 19:48:55] Request: DELETE /Users/null
+[11/03/2025 19:48:55] Response: 400
+
+[11/03/2025 19:48:55] Request: GET /Users/GetAllUsers
+[11/03/2025 19:48:55] Response: 200
+
+[11/03/2025 19:49:10] Request: DELETE /Users/12345
+[11/03/2025 19:49:10] Response: 201
+
+[11/03/2025 19:49:10] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:10] Response: 200
+
+[11/03/2025 19:49:13] Request: DELETE /Users/null
+[11/03/2025 19:49:13] Response: 400
+
+[11/03/2025 19:49:13] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:13] Response: 200
+
+[11/03/2025 19:49:14] Request: DELETE /Users/null
+[11/03/2025 19:49:14] Response: 400
+
+[11/03/2025 19:49:14] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:14] Response: 200
+
+[11/03/2025 19:49:37] Request: GET /Html/user.html
+[11/03/2025 19:49:37] Response: 304
+
+[11/03/2025 19:49:37] Request: GET /Css/user.css
+[11/03/2025 19:49:37] Request: GET /Js/user.js
+[11/03/2025 19:49:37] Response: 304
+
+[11/03/2025 19:49:37] Response: 304
+
+[11/03/2025 19:49:37] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:37] Response: 200
+
+[11/03/2025 19:49:46] Request: POST /Users
+[11/03/2025 19:49:46] Response: 200
+
+[11/03/2025 19:49:46] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:46] Response: 200
+
+[11/03/2025 19:49:49] Request: DELETE /Users/123
+[11/03/2025 19:49:49] Response: 201
+
+[11/03/2025 19:49:49] Request: GET /Users/GetAllUsers
+[11/03/2025 19:49:49] Response: 200
+
+[11/03/2025 19:49:53] Request: GET /Html/index.html
+[11/03/2025 19:49:53] Response: 304
+
+[11/03/2025 19:49:53] Request: GET /Css/style.css
+[11/03/2025 19:49:53] Request: GET /Js/app.js
+[11/03/2025 19:49:53] Response: 304
+
+[11/03/2025 19:49:53] Response: 304
+
+[11/03/2025 19:49:53] Request: GET /Jobs
+[11/03/2025 19:49:53] Response: 200
+
+[11/03/2025 19:52:59] Request: GET /Html/index.html
+[11/03/2025 19:52:59] Response: 304
+
+[11/03/2025 19:52:59] Request: GET /Jobs
+[11/03/2025 19:52:59] Response: 200
+
+[11/03/2025 19:53:00] Request: GET /Html/index.html
+[11/03/2025 19:53:00] Response: 200
+
+[11/03/2025 19:53:00] Request: GET /Js/app.js
+[11/03/2025 19:53:00] Request: GET /Js/login.js
+[11/03/2025 19:53:00] Response: 200
+
+[11/03/2025 19:53:00] Response: 200
+
+[11/03/2025 19:53:00] Request: GET /Css/style.css
+[11/03/2025 19:53:00] Response: 200
+
+[11/03/2025 19:53:00] Request: GET /favicon.ico
+[11/03/2025 19:53:00] Response: 404
+
+[11/03/2025 19:53:01] Request: GET /Jobs
+[11/03/2025 19:53:01] Response: 200
+
+[11/03/2025 19:53:29] Request: POST /Login
+[11/03/2025 19:53:29] Response: 200
+
+[11/03/2025 19:53:29] Request: GET /Css/style.css
+[11/03/2025 19:53:29] Response: 304
+
+[11/03/2025 19:53:29] Request: GET /Jobs
+[11/03/2025 19:53:29] Response: 200
+
+[11/03/2025 19:53:31] Request: GET /Html/user.html
+[11/03/2025 19:53:31] Response: 304
+
+[11/03/2025 19:53:31] Request: GET /Css/user.css
+[11/03/2025 19:53:31] Request: GET /Js/user.js
+[11/03/2025 19:53:31] Response: 304
+
+[11/03/2025 19:53:31] Response: 304
+
+[11/03/2025 19:53:31] Request: GET /Users/GetAllUsers
+[11/03/2025 19:53:31] Response: 200
+
+[11/03/2025 19:54:05] Request: GET /Html/user.html
+[11/03/2025 19:54:05] Response: 200
+
+[11/03/2025 19:54:06] Request: GET /Css/user.css
+[11/03/2025 19:54:06] Request: GET /Js/user.js
+[11/03/2025 19:54:06] Response: 200
+
+[11/03/2025 19:54:06] Response: 200
+
+[11/03/2025 19:54:06] Request: GET /favicon.ico
+[11/03/2025 19:54:06] Response: 404
+
+[11/03/2025 19:54:06] Request: GET /Users/GetAllUsers
+[11/03/2025 19:54:06] Response: 200
+
+[11/03/2025 19:54:12] Request: GET /
+[11/03/2025 19:54:12] Response: 307
+
+[11/03/2025 19:54:12] Request: GET /Html/index.html
+[11/03/2025 19:54:12] Response: 304
+
+[11/03/2025 19:54:12] Request: GET /Css/style.css
+[11/03/2025 19:54:12] Response: 200
+
+[11/03/2025 19:54:12] Request: GET /Jobs
+[11/03/2025 19:54:12] Response: 200
+
+[11/03/2025 19:54:21] Request: GET /Html/index.html
+[11/03/2025 19:54:21] Response: 304
+
+[11/03/2025 19:54:21] Request: GET /Css/style.css
+[11/03/2025 19:54:21] Response: 304
+
+[11/03/2025 19:54:21] Request: GET /Jobs
+[11/03/2025 19:54:21] Response: 200
+
+[11/03/2025 19:54:24] Request: GET /Html/index.html
+[11/03/2025 19:54:24] Response: 200
+
+[11/03/2025 19:54:24] Request: GET /Css/style.css
+[11/03/2025 19:54:24] Request: GET /Js/app.js
+[11/03/2025 19:54:24] Request: GET /Js/login.js
+[11/03/2025 19:54:24] Response: 200
+
+[11/03/2025 19:54:24] Response: 200
+
+[11/03/2025 19:54:24] Response: 200
+
+[11/03/2025 19:54:24] Request: GET /favicon.ico
+[11/03/2025 19:54:24] Response: 404
+
+[11/03/2025 19:54:24] Request: GET /Jobs
+[11/03/2025 19:54:25] Response: 200
+
+[11/03/2025 19:56:04] Request: GET /Html/index.html
+[11/03/2025 19:56:04] Response: 200
+
+[11/03/2025 19:56:04] Request: GET /Js/app.js
+[11/03/2025 19:56:04] Request: GET /Js/login.js
+[11/03/2025 19:56:04] Response: 200
+
+[11/03/2025 19:56:04] Response: 200
+
+[11/03/2025 19:56:04] Request: GET /Css/style.css
+[11/03/2025 19:56:04] Response: 200
+
+[11/03/2025 19:56:04] Request: GET /favicon.ico
+[11/03/2025 19:56:04] Response: 404
+
+[11/03/2025 19:56:04] Request: GET /Jobs
+[11/03/2025 19:56:04] Response: 200
+
+[11/03/2025 19:56:07] Request: GET /Html/index.html
+[11/03/2025 19:56:07] Response: 200
+
+[11/03/2025 19:56:07] Request: GET /Css/style.css
+[11/03/2025 19:56:07] Request: GET /Js/app.js
+[11/03/2025 19:56:07] Request: GET /Js/login.js
+[11/03/2025 19:56:07] Response: 200
+
+[11/03/2025 19:56:07] Response: 200
+
+[11/03/2025 19:56:07] Response: 200
+
+[11/03/2025 19:56:07] Request: GET /favicon.ico
+[11/03/2025 19:56:07] Response: 404
+
+[11/03/2025 19:56:07] Request: GET /Jobs
+[11/03/2025 19:56:07] Response: 200
+
+[11/03/2025 19:56:09] Request: GET /Html/index.html
+[11/03/2025 19:56:09] Response: 304
+
+[11/03/2025 19:56:09] Request: GET /Css/style.css
+[11/03/2025 19:56:09] Response: 304
+
+[11/03/2025 19:56:10] Request: GET /Jobs
+[11/03/2025 19:56:10] Response: 200
+
+[11/03/2025 19:56:10] Request: GET /Html/index.html
+[11/03/2025 19:56:10] Response: 304
+
+[11/03/2025 19:56:11] Request: GET /Css/style.css
+[11/03/2025 19:56:11] Response: 304
+
+[11/03/2025 19:56:11] Request: GET /Jobs
+[11/03/2025 19:56:11] Request: GET /Html/index.html
+[11/03/2025 19:56:11] Response: 304
+
+[11/03/2025 19:56:11] Response: 200
+
+[11/03/2025 19:56:13] Request: GET /Css/style.css
+[11/03/2025 19:56:13] Response: 304
+
+[11/03/2025 19:56:13] Request: GET /Jobs
+[11/03/2025 19:56:13] Response: 200
+
+[11/03/2025 19:56:16] Request: GET /Css/style.css
+[11/03/2025 19:56:16] Response: 304
+
+[11/03/2025 19:56:36] Request: GET /Html/index.html
+[11/03/2025 19:56:36] Response: 200
+
+[11/03/2025 19:56:36] Request: GET /Css/style.css
+[11/03/2025 19:56:36] Request: GET /Js/app.js
+[11/03/2025 19:56:36] Request: GET /Js/login.js
+[11/03/2025 19:56:36] Response: 200
+
+[11/03/2025 19:56:36] Response: 200
+
+[11/03/2025 19:56:36] Response: 200
+
+[11/03/2025 19:56:36] Request: GET /favicon.ico
+[11/03/2025 19:56:36] Response: 404
+
+[11/03/2025 19:56:36] Request: GET /Jobs
+[11/03/2025 19:56:36] Response: 200
+
+[11/03/2025 19:56:43] Request: GET /Html/index.html
+[11/03/2025 19:56:43] Response: 200
+
+[11/03/2025 19:56:43] Request: GET /Css/style.css
+[11/03/2025 19:56:43] Response: 200
+
+[11/03/2025 19:56:43] Request: GET /Js/login.js
+[11/03/2025 19:56:43] Request: GET /Js/app.js
+[11/03/2025 19:56:43] Response: 200
+
+[11/03/2025 19:56:43] Response: 200
+
+[11/03/2025 19:56:43] Request: GET /favicon.ico
+[11/03/2025 19:56:43] Response: 404
+
+[11/03/2025 19:56:43] Request: GET /Jobs
+[11/03/2025 19:56:43] Response: 200
+
+[11/03/2025 19:56:45] Request: GET /Html/index.html
+[11/03/2025 19:56:45] Response: 304
+
+[11/03/2025 19:56:45] Request: GET /Jobs
+[11/03/2025 19:56:45] Response: 200
+
+[11/03/2025 19:56:48] Request: GET /Html/index.html
+[11/03/2025 19:56:48] Response: 304
+
+[11/03/2025 19:56:48] Request: GET /Css/style.css
+[11/03/2025 19:56:48] Response: 304
+
+[11/03/2025 19:56:48] Request: GET /Jobs
+[11/03/2025 19:56:48] Response: 200
+
+[11/03/2025 19:58:12] Request: GET /Html/index.html
+[11/03/2025 19:58:12] Response: 304
+
+[11/03/2025 19:58:12] Request: GET /Css/style.css
+[11/03/2025 19:58:12] Response: 200
+
+[11/03/2025 19:58:12] Request: GET /Jobs
+[11/03/2025 19:58:12] Response: 200
+
+[11/03/2025 19:58:15] Request: GET /Html/index.html
+[11/03/2025 19:58:15] Response: 200
+
+[11/03/2025 19:58:15] Request: GET /Css/style.css
+[11/03/2025 19:58:15] Request: GET /Js/app.js
+[11/03/2025 19:58:15] Request: GET /Js/login.js
+[11/03/2025 19:58:15] Response: 200
+
+[11/03/2025 19:58:15] Response: 200
+
+[11/03/2025 19:58:15] Response: 200
+
+[11/03/2025 19:58:15] Request: GET /favicon.ico
+[11/03/2025 19:58:15] Response: 404
+
+[11/03/2025 19:58:15] Request: GET /Jobs
+[11/03/2025 19:58:15] Response: 200
+
+[11/03/2025 19:58:18] Request: GET /Html/index.html
+[11/03/2025 19:58:18] Response: 304
+
+[11/03/2025 19:58:18] Request: GET /Css/style.css
+[11/03/2025 19:58:18] Response: 304
+
+[11/03/2025 19:58:18] Request: GET /Jobs
+[11/03/2025 19:58:18] Response: 200
+
+[11/03/2025 19:58:36] Request: GET /Html/user.html
+[11/03/2025 19:58:36] Response: 304
+
+[11/03/2025 19:58:37] Request: GET /Css/user.css
+[11/03/2025 19:58:37] Request: GET /Js/user.js
+[11/03/2025 19:58:37] Response: 304
+
+[11/03/2025 19:58:37] Response: 304
+
+[11/03/2025 19:58:37] Request: GET /Users/GetAllUsers
+[11/03/2025 19:58:37] Response: 200
+
+[11/03/2025 20:07:37] Request: GET /Css/style.css
+[11/03/2025 20:07:37] Response: 200
+
+[11/03/2025 20:07:37] Request: GET /Jobs
+[11/03/2025 20:07:37] Response: 200
+
+[11/03/2025 20:07:41] Request: GET /Html/index.html
+[11/03/2025 20:07:41] Response: 304
+
+[11/03/2025 20:07:42] Request: GET /Css/style.css
+[11/03/2025 20:07:42] Response: 304
+
+[11/03/2025 20:07:42] Request: GET /Jobs
+[11/03/2025 20:07:42] Response: 200
+
+[11/03/2025 20:07:53] Request: POST /Login
+[11/03/2025 20:07:53] Response: 200
+
+[11/03/2025 20:07:53] Request: GET /Css/style.css
+[11/03/2025 20:07:53] Response: 304
+
+[11/03/2025 20:07:54] Request: GET /Jobs
+[11/03/2025 20:07:54] Response: 200
+
+[11/03/2025 20:09:22] Request: GET /Html/index.html
+[11/03/2025 20:09:22] Response: 304
+
+[11/03/2025 20:09:22] Request: GET /Css/style.css
+[11/03/2025 20:09:22] Response: 304
+
+[11/03/2025 20:09:22] Request: GET /Jobs
+[11/03/2025 20:09:23] Response: 200
+
+[11/03/2025 20:09:24] Request: GET /Html/index.html
+[11/03/2025 20:09:24] Response: 200
+
+[11/03/2025 20:09:24] Request: GET /Css/style.css
+[11/03/2025 20:09:24] Response: 200
+
+[11/03/2025 20:09:24] Request: GET /Js/login.js
+[11/03/2025 20:09:24] Response: 200
+
+[11/03/2025 20:09:24] Request: GET /Js/app.js
+[11/03/2025 20:09:24] Response: 200
+
+[11/03/2025 20:09:24] Request: GET /favicon.ico
+[11/03/2025 20:09:24] Response: 404
+
+[11/03/2025 20:09:24] Request: GET /Jobs
+[11/03/2025 20:09:24] Response: 200
+
+[11/03/2025 20:10:10] Request: GET /Html/index.html
+[11/03/2025 20:10:10] Response: 200
+
+[11/03/2025 20:10:10] Request: GET /Css/style.css
+[11/03/2025 20:10:10] Request: GET /Js/app.js
+[11/03/2025 20:10:10] Response: 304
+
+[11/03/2025 20:10:10] Response: 304
+
+[11/03/2025 20:10:10] Request: GET /Jobs
+[11/03/2025 20:10:10] Response: 200
+
+[11/03/2025 20:12:55] Request: GET /Html/index.html
+[11/03/2025 20:12:55] Response: 304
+
+[11/03/2025 20:12:55] Request: GET /Js/app.js
+[11/03/2025 20:12:55] Response: 304
+
+[11/03/2025 20:12:55] Request: GET /Css/style.css
+[11/03/2025 20:12:55] Response: 200
+
+[11/03/2025 20:12:56] Request: GET /Jobs
+[11/03/2025 20:12:56] Response: 200
+
+[11/03/2025 20:13:43] Request: PUT /Jobs/1
+[11/03/2025 20:13:43] Response: 201
+
+[11/03/2025 20:13:43] Request: GET /Jobs
+[11/03/2025 20:13:43] Response: 200
+
+[11/03/2025 20:13:49] Request: POST /Jobs
+[11/03/2025 20:13:49] Response: 400
+
+[11/03/2025 20:14:05] Request: POST /Jobs
+[11/03/2025 20:14:05] Response: 201
+
+[11/03/2025 20:14:05] Request: GET /Jobs
+[11/03/2025 20:14:05] Response: 200
+
+[11/03/2025 20:14:08] Request: DELETE /Jobs/26
+[11/03/2025 20:14:08] Response: 201
+
+[11/03/2025 20:14:08] Request: GET /Jobs
+[11/03/2025 20:14:09] Response: 200
+
+[11/03/2025 20:14:51] Request: POST /Jobs
+[11/03/2025 20:14:51] Response: 400
+
+[11/03/2025 20:15:18] Request: GET /Html/index.html
+[11/03/2025 20:15:18] Response: 304
+
+[11/03/2025 20:15:18] Request: GET /Js/app.js
+[11/03/2025 20:15:18] Response: 304
+
+[11/03/2025 20:15:18] Request: GET /Css/style.css
+[11/03/2025 20:15:18] Response: 200
+
+[11/03/2025 20:15:18] Request: GET /Jobs
+[11/03/2025 20:15:18] Response: 200
+
+[11/03/2025 20:23:45] Request: GET /Html/index.html
+[11/03/2025 20:23:45] Response: 200
+
+[11/03/2025 20:23:45] Request: GET /Css/style.css
+[11/03/2025 20:23:45] Response: 304
+
+[11/03/2025 20:23:45] Request: GET /Js/app.js
+[11/03/2025 20:23:45] Response: 200
+
+[11/03/2025 20:23:46] Request: GET /Jobs
+[11/03/2025 20:23:46] Response: 200
+
+[11/03/2025 20:23:52] Request: PUT /Jobs/2
+[11/03/2025 20:23:52] Response: 201
+
+[11/03/2025 20:23:52] Request: GET /Jobs
+[11/03/2025 20:23:52] Response: 200
+
+[11/03/2025 20:23:54] Request: DELETE /Jobs/3
+[11/03/2025 20:23:54] Response: 201
+
+[11/03/2025 20:23:54] Request: GET /Jobs
+[11/03/2025 20:23:54] Response: 200
+
+[11/03/2025 20:24:05] Request: GET /Html/index.html
+[11/03/2025 20:24:05] Response: 304
+
+[11/03/2025 20:24:05] Request: GET /Js/app.js
+[11/03/2025 20:24:05] Response: 304
+
+[11/03/2025 20:24:05] Request: GET /Jobs
+[11/03/2025 20:24:05] Response: 200
+
+[11/03/2025 20:26:03] Request: GET /Html/index.html
+[11/03/2025 20:26:03] Response: 304
+
+[11/03/2025 20:26:03] Request: GET /Css/style.css
+[11/03/2025 20:26:03] Request: GET /Js/app.js
+[11/03/2025 20:26:03] Response: 200
+
+[11/03/2025 20:26:03] Response: 304
+
+[11/03/2025 20:26:03] Request: GET /Jobs
+[11/03/2025 20:26:03] Response: 200
+
+[11/03/2025 20:26:05] Request: GET /Html/index.html
+[11/03/2025 20:26:05] Response: 200
+
+[11/03/2025 20:26:05] Request: GET /Js/app.js
+[11/03/2025 20:26:05] Request: GET /Js/login.js
+[11/03/2025 20:26:05] Request: GET /Css/style.css
+[11/03/2025 20:26:05] Response: 200
+
+[11/03/2025 20:26:05] Response: 200
+
+[11/03/2025 20:26:05] Response: 200
+
+[11/03/2025 20:26:05] Request: GET /favicon.ico
+[11/03/2025 20:26:05] Response: 404
+
+[11/03/2025 20:26:05] Request: GET /Jobs
+[11/03/2025 20:26:05] Response: 200
+
+[11/03/2025 20:27:23] Request: GET /Html/index.html
+[11/03/2025 20:27:23] Response: 200
+
+[11/03/2025 20:27:23] Request: GET /Css/style.css
+[11/03/2025 20:27:23] Response: 304
+
+[11/03/2025 20:27:23] Request: GET /Js/app.js
+[11/03/2025 20:27:23] Response: 200
+
+[11/03/2025 20:27:23] Request: GET /Jobs
+[11/03/2025 20:27:23] Response: 200
+
+[11/03/2025 20:28:07] Request: GET /Html/index.html
+[11/03/2025 20:28:07] Response: 304
+
+[11/03/2025 20:28:07] Request: GET /Css/style.css
+[11/03/2025 20:28:07] Response: 304
+
+[11/03/2025 20:28:07] Request: GET /Js/app.js
+[11/03/2025 20:28:07] Response: 200
+
+[11/03/2025 20:28:07] Request: GET /Jobs
+[11/03/2025 20:28:07] Response: 200
+
+[11/03/2025 20:28:13] Request: PUT /Jobs/3
+[11/03/2025 20:28:13] Response: 201
+
+[11/03/2025 20:28:13] Request: GET /Jobs
+[11/03/2025 20:28:13] Response: 200
+
+[11/03/2025 20:28:18] Request: POST /Jobs
+[11/03/2025 20:28:18] Response: 400
+
+[11/03/2025 20:28:31] Request: POST /Jobs
+[11/03/2025 20:28:31] Response: 201
+
+[11/03/2025 20:28:32] Request: GET /Jobs
+[11/03/2025 20:28:32] Response: 200
+
+[11/03/2025 20:29:17] Request: GET /Html/index.html
+[11/03/2025 20:29:17] Response: 304
+
+[11/03/2025 20:29:17] Request: GET /Css/style.css
+[11/03/2025 20:29:17] Response: 304
+
+[11/03/2025 20:29:17] Request: GET /Js/app.js
+[11/03/2025 20:29:17] Response: 200
+
+[11/03/2025 20:29:17] Request: GET /Jobs
+[11/03/2025 20:29:17] Response: 200
+
+[11/03/2025 20:29:41] Request: GET /Html/index.html
+[11/03/2025 20:29:41] Response: 304
+
+[11/03/2025 20:29:41] Request: GET /Css/style.css
+[11/03/2025 20:29:41] Response: 304
+
+[11/03/2025 20:29:41] Request: GET /Js/app.js
+[11/03/2025 20:29:41] Response: 200
+
+[11/03/2025 20:29:41] Request: GET /Jobs
+[11/03/2025 20:29:41] Response: 200
+
+[11/03/2025 20:30:11] Request: GET /Html/index.html
+[11/03/2025 20:30:11] Response: 304
+
+[11/03/2025 20:30:11] Request: GET /Css/style.css
+[11/03/2025 20:30:11] Response: 304
+
+[11/03/2025 20:30:11] Request: GET /Js/app.js
+[11/03/2025 20:30:11] Response: 200
+
+[11/03/2025 20:30:11] Request: GET /Jobs
+[11/03/2025 20:30:11] Response: 200
+
+[11/03/2025 20:30:22] Request: POST /Jobs
+[11/03/2025 20:30:22] Response: 201
+
+[11/03/2025 20:30:22] Request: GET /Jobs
+[11/03/2025 20:30:23] Response: 200
+
+[11/03/2025 20:30:26] Request: DELETE /Jobs/27
+[11/03/2025 20:30:26] Response: 201
+
+[11/03/2025 20:30:26] Request: GET /Jobs
+[11/03/2025 20:30:26] Response: 200
+
+[11/03/2025 20:30:29] Request: DELETE /Jobs/26
+[11/03/2025 20:30:29] Response: 201
+
+[11/03/2025 20:30:30] Request: GET /Jobs
+[11/03/2025 20:30:30] Response: 200
+
+[11/03/2025 20:32:38] Request: GET /Html/index.html
+[11/03/2025 20:32:38] Response: 304
+
+[11/03/2025 20:32:39] Request: GET /Js/app.js
+[11/03/2025 20:32:39] Response: 304
+
+[11/03/2025 20:32:39] Request: GET /Css/style.css
+[11/03/2025 20:32:39] Response: 200
+
+[11/03/2025 20:32:39] Request: GET /Jobs
+[11/03/2025 20:32:39] Response: 200
+
+[11/03/2025 20:34:27] Request: GET /Html/index.html
+[11/03/2025 20:34:27] Response: 200
+
+[11/03/2025 20:34:27] Request: GET /Js/app.js
+[11/03/2025 20:34:27] Request: GET /Css/style.css
+[11/03/2025 20:34:27] Response: 304
+
+[11/03/2025 20:34:27] Response: 200
+
+[11/03/2025 20:34:27] Request: GET /Jobs
+[11/03/2025 20:34:27] Response: 200
+
+[11/03/2025 20:34:31] Request: GET /Html/index.html
+[11/03/2025 20:34:31] Response: 200
+
+[11/03/2025 20:34:31] Request: GET /Css/style.css
+[11/03/2025 20:34:31] Request: GET /Js/app.js
+[11/03/2025 20:34:31] Request: GET /Js/login.js
+[11/03/2025 20:34:31] Response: 200
+
+[11/03/2025 20:34:31] Response: 200
+
+[11/03/2025 20:34:31] Response: 200
+
+[11/03/2025 20:34:31] Request: GET /favicon.ico
+[11/03/2025 20:34:31] Response: 404
+
+[11/03/2025 20:34:31] Request: GET /Jobs
+[11/03/2025 20:34:31] Response: 200
+
+[11/03/2025 20:36:14] Request: GET /Html/index.html
+[11/03/2025 20:36:14] Response: 304
+
+[11/03/2025 20:36:14] Request: GET /Js/app.js
+[11/03/2025 20:36:14] Response: 304
+
+[11/03/2025 20:36:14] Request: GET /Css/style.css
+[11/03/2025 20:36:14] Response: 200
+
+[11/03/2025 20:36:15] Request: GET /Jobs
+[11/03/2025 20:36:15] Response: 200
+
+[11/03/2025 20:36:47] Request: GET /Html/user.html
+[11/03/2025 20:36:47] Response: 200
+
+[11/03/2025 20:36:47] Request: GET /Css/user.css
+[11/03/2025 20:36:47] Response: 200
+
+[11/03/2025 20:36:47] Request: GET /Js/user.js
+[11/03/2025 20:36:47] Response: 200
+
+[11/03/2025 20:36:48] Request: GET /Users/GetAllUsers
+[11/03/2025 20:36:48] Response: 200
+
+[11/03/2025 20:37:08] Request: GET /Html/index.html
+[11/03/2025 20:37:08] Response: 304
+
+[11/03/2025 20:37:09] Request: GET /Css/style.css
+[11/03/2025 20:37:09] Request: GET /Js/app.js
+[11/03/2025 20:37:09] Response: 304
+
+[11/03/2025 20:37:09] Response: 304
+
+[11/03/2025 20:37:09] Request: GET /Jobs
+[11/03/2025 20:37:09] Response: 200
+
+[11/03/2025 20:38:23] Request: GET /Html/index.html
+[11/03/2025 20:38:23] Response: 304
+
+[11/03/2025 20:38:23] Request: GET /Js/app.js
+[11/03/2025 20:38:23] Response: 304
+
+[11/03/2025 20:38:23] Request: GET /Css/style.css
+[11/03/2025 20:38:23] Response: 200
+
+[11/03/2025 20:38:23] Request: GET /Jobs
+[11/03/2025 20:38:23] Response: 200
+
+[11/03/2025 20:38:36] Request: GET /Html/index.html
+[11/03/2025 20:38:36] Response: 304
+
+[11/03/2025 20:38:36] Request: GET /Css/style.css
+[11/03/2025 20:38:36] Response: 200
+
+[11/03/2025 20:38:36] Request: GET /Jobs
+[11/03/2025 20:38:36] Response: 200
+
+[11/03/2025 20:38:49] Request: GET /Html/index.html
+[11/03/2025 20:38:49] Response: 304
+
+[11/03/2025 20:38:50] Request: GET /Css/style.css
+[11/03/2025 20:38:50] Response: 200
+
+[11/03/2025 20:38:50] Request: GET /Jobs
+[11/03/2025 20:38:50] Response: 200
+
+[11/03/2025 20:39:59] Request: GET /Html/index.html
+[11/03/2025 20:39:59] Response: 200
+
+[11/03/2025 20:39:59] Request: GET /Js/app.js
+[11/03/2025 20:39:59] Response: 304
+
+[11/03/2025 20:39:59] Request: GET /Css/style.css
+[11/03/2025 20:39:59] Response: 200
+
+[11/03/2025 20:39:59] Request: GET /Jobs
+[11/03/2025 20:39:59] Response: 200
+
+[11/03/2025 20:40:06] Request: POST /Login
+[11/03/2025 20:40:06] Response: 200
+
+[11/03/2025 20:40:06] Request: GET /Html/index.html
+[11/03/2025 20:40:06] Response: 304
+
+[11/03/2025 20:40:06] Request: GET /Css/style.css
+[11/03/2025 20:40:06] Response: 304
+
+[11/03/2025 20:40:06] Request: GET /Jobs
+[11/03/2025 20:40:06] Response: 200
+
+[11/03/2025 20:40:23] Request: GET /Html/index.html
+[11/03/2025 20:40:23] Response: 304
+
+[11/03/2025 20:40:23] Request: GET /Css/style.css
+[11/03/2025 20:40:23] Response: 200
+
+[11/03/2025 20:40:23] Request: GET /Jobs
+[11/03/2025 20:40:23] Response: 200
+
+[11/03/2025 20:40:54] Request: GET /Html/index.html
+[11/03/2025 20:40:54] Response: 304
+
+[11/03/2025 20:40:54] Request: GET /Css/style.css
+[11/03/2025 20:40:54] Response: 200
+
+[11/03/2025 20:40:54] Request: GET /Jobs
+[11/03/2025 20:40:54] Response: 200
+
+[11/03/2025 20:41:18] Request: GET /Html/index.html
+[11/03/2025 20:41:18] Response: 304
+
+[11/03/2025 20:41:18] Request: GET /Css/style.css
+[11/03/2025 20:41:18] Request: GET /Js/app.js
+[11/03/2025 20:41:18] Response: 200
+
+[11/03/2025 20:41:18] Response: 304
+
+[11/03/2025 20:41:18] Request: GET /Jobs
+[11/03/2025 20:41:18] Response: 200
+
+[11/03/2025 20:41:30] Request: GET /Html/index.html
+[11/03/2025 20:41:30] Response: 304
+
+[11/03/2025 20:41:30] Request: GET /Css/style.css
+[11/03/2025 20:41:30] Response: 200
+
+[11/03/2025 20:41:30] Request: GET /Jobs
+[11/03/2025 20:41:30] Response: 200
+
+[11/03/2025 20:42:31] Request: GET /Html/index.html
+[11/03/2025 20:42:31] Response: 200
+
+[11/03/2025 20:42:31] Request: GET /Css/style.css
+[11/03/2025 20:42:31] Request: GET /Js/app.js
+[11/03/2025 20:42:31] Response: 304
+
+[11/03/2025 20:42:31] Response: 304
+
+[11/03/2025 20:42:31] Request: GET /Jobs
+[11/03/2025 20:42:31] Response: 200
+
+[11/03/2025 20:42:45] Request: GET /Html/index.html
+[11/03/2025 20:42:45] Response: 304
+
+[11/03/2025 20:42:45] Request: GET /Css/style.css
+[11/03/2025 20:42:45] Response: 200
+
+[11/03/2025 20:42:45] Request: GET /Jobs
+[11/03/2025 20:42:45] Response: 200
+
+[11/03/2025 20:43:50] Request: GET /Html/index.html
+[11/03/2025 20:43:50] Response: 304
+
+[11/03/2025 20:43:50] Request: GET /Js/app.js
+[11/03/2025 20:43:50] Response: 304
+
+[11/03/2025 20:43:50] Request: GET /Css/style.css
+[11/03/2025 20:43:50] Response: 200
+
+[11/03/2025 20:43:50] Request: GET /Jobs
+[11/03/2025 20:43:50] Response: 200
+
+[11/03/2025 20:43:53] Request: GET /Css/style.css
+[11/03/2025 20:43:53] Response: 304
+
+[11/03/2025 20:43:54] Request: GET /Jobs
+[11/03/2025 20:43:54] Response: 200
+
+[11/03/2025 20:44:01] Request: POST /Login
+[11/03/2025 20:44:01] Response: 200
+
+[11/03/2025 20:44:01] Request: GET /Html/index.html
+[11/03/2025 20:44:01] Response: 304
+
+[11/03/2025 20:44:01] Request: GET /Css/style.css
+[11/03/2025 20:44:01] Response: 304
+
+[11/03/2025 20:44:01] Request: GET /Jobs
+[11/03/2025 20:44:01] Response: 200
+
+[11/03/2025 20:44:13] Request: GET /Html/index.html
+[11/03/2025 20:44:13] Response: 304
+
+[11/03/2025 20:44:14] Request: GET /Css/style.css
+[11/03/2025 20:44:14] Response: 200
+
+[11/03/2025 20:44:14] Request: GET /Jobs
+[11/03/2025 20:44:14] Response: 200
+
+[11/03/2025 20:44:53] Request: GET /Html/index.html
+[11/03/2025 20:44:53] Response: 200
+
+[11/03/2025 20:44:53] Request: GET /Css/style.css
+[11/03/2025 20:44:53] Response: 304
+
+[11/03/2025 20:44:53] Request: GET /Jobs
+[11/03/2025 20:44:53] Response: 200
+
+[11/03/2025 20:46:21] Request: GET /Html/index.html
+[11/03/2025 20:46:21] Response: 304
+
+[11/03/2025 20:46:21] Request: GET /Css/style.css
+[11/03/2025 20:46:21] Request: GET /Js/app.js
+[11/03/2025 20:46:21] Response: 304
+
+[11/03/2025 20:46:21] Response: 304
+
+[11/03/2025 20:46:21] Request: GET /Jobs
+[11/03/2025 20:46:21] Response: 200
+
+[11/03/2025 20:46:23] Request: GET /Html/user.html
+[11/03/2025 20:46:23] Response: 200
+
+[11/03/2025 20:46:23] Request: GET /Css/user.css
+[11/03/2025 20:46:23] Request: GET /Js/user.js
+[11/03/2025 20:46:23] Response: 304
+
+[11/03/2025 20:46:23] Response: 304
+
+[11/03/2025 20:46:23] Request: GET /Users/GetAllUsers
+[11/03/2025 20:46:23] Response: 200
+
+[11/03/2025 20:46:41] Request: GET /Html/user.html
+[11/03/2025 20:46:41] Response: 200
+
+[11/03/2025 20:46:42] Request: GET /Users/GetAllUsers
+[11/03/2025 20:46:42] Response: 200
+
+[11/03/2025 20:46:43] Request: GET /Html/index.html
+[11/03/2025 20:46:43] Response: 304
+
+[11/03/2025 20:46:43] Request: GET /Css/style.css
+[11/03/2025 20:46:43] Response: 304
+
+[11/03/2025 20:46:43] Request: GET /Jobs
+[11/03/2025 20:46:43] Response: 200
+
+[11/03/2025 20:47:26] Request: GET /Html/index.html
+[11/03/2025 20:47:26] Response: 304
+
+[11/03/2025 20:47:26] Request: GET /Css/style.css
+[11/03/2025 20:47:26] Response: 304
+
+[11/03/2025 20:47:26] Request: GET /Jobs
+[11/03/2025 20:47:26] Response: 200
+
+[11/03/2025 20:47:28] Request: GET /Html/user.html
+[11/03/2025 20:47:28] Response: 200
+
+[11/03/2025 20:47:28] Request: GET /Users/GetAllUsers
+[11/03/2025 20:47:28] Response: 200
+
+[11/03/2025 20:48:40] Request: GET /Html/user.html
+[11/03/2025 20:48:40] Response: 304
+
+[11/03/2025 20:48:40] Request: GET /Css/user.css
+[11/03/2025 20:48:40] Response: 200
+
+[11/03/2025 20:48:40] Request: GET /Users/GetAllUsers
+[11/03/2025 20:48:40] Response: 200
+
+[11/03/2025 20:49:27] Request: GET /Html/user.html
+[11/03/2025 20:49:27] Response: 304
+
+[11/03/2025 20:49:27] Request: GET /Js/user.js
+[11/03/2025 20:49:27] Response: 304
+
+[11/03/2025 20:49:27] Request: GET /Css/user.css
+[11/03/2025 20:49:27] Response: 200
+
+[11/03/2025 20:49:27] Request: GET /Users/GetAllUsers
+[11/03/2025 20:49:27] Response: 200
+
+[11/03/2025 20:50:02] Request: GET /Html/user.html
+[11/03/2025 20:50:02] Response: 304
+
+[11/03/2025 20:50:02] Request: GET /Css/user.css
+[11/03/2025 20:50:02] Response: 200
+
+[11/03/2025 20:50:02] Request: GET /Users/GetAllUsers
+[11/03/2025 20:50:02] Response: 200
+
+[11/03/2025 20:50:53] Request: GET /Html/user.html
+[11/03/2025 20:50:53] Response: 304
+
+[11/03/2025 20:50:53] Request: GET /Css/user.css
+[11/03/2025 20:50:53] Response: 200
+
+[11/03/2025 20:50:53] Request: GET /Users/GetAllUsers
+[11/03/2025 20:50:53] Response: 200
+
+[11/03/2025 20:51:02] Request: GET /Html/user.html
+[11/03/2025 20:51:02] Response: 304
+
+[11/03/2025 20:51:02] Request: GET /Css/user.css
+[11/03/2025 20:51:02] Response: 200
+
+[11/03/2025 20:51:02] Request: GET /Users/GetAllUsers
+[11/03/2025 20:51:02] Response: 200
+
+[11/03/2025 20:51:04] Request: GET /Html/index.html
+[11/03/2025 20:51:04] Response: 304
+
+[11/03/2025 20:51:04] Request: GET /Css/style.css
+[11/03/2025 20:51:04] Request: GET /Js/app.js
+[11/03/2025 20:51:04] Response: 304
+
+[11/03/2025 20:51:04] Response: 304
+
+[11/03/2025 20:51:04] Request: GET /Jobs
+[11/03/2025 20:51:04] Response: 200
+
+[11/03/2025 20:51:14] Request: POST /Login
+[11/03/2025 20:51:14] Response: 200
+
+[11/03/2025 20:51:15] Request: GET /Jobs
+[11/03/2025 20:51:15] Response: 200
+
+[11/03/2025 20:51:21] Request: GET /Css/user.css
+[11/03/2025 20:51:21] Response: 304
+
+[11/03/2025 20:51:21] Request: GET /Users/GetAllUsers
+[11/03/2025 20:51:21] Response: 200
+
+[11/03/2025 20:51:33] Request: GET /Html/user.html
+[11/03/2025 20:51:33] Response: 304
+
+[11/03/2025 20:51:33] Request: GET /Css/user.css
+[11/03/2025 20:51:33] Response: 200
+
+[11/03/2025 20:51:34] Request: GET /Users/GetAllUsers
+[11/03/2025 20:51:34] Response: 200
+
+[11/03/2025 20:51:43] Request: GET /Html/user.html
+[11/03/2025 20:51:43] Response: 304
+
+[11/03/2025 20:51:43] Request: GET /Css/user.css
+[11/03/2025 20:51:43] Response: 200
+
+[11/03/2025 20:51:44] Request: GET /Users/GetAllUsers
+[11/03/2025 20:51:44] Response: 200
+
+[11/03/2025 20:51:48] Request: GET /Html/index.html
+[11/03/2025 20:51:48] Response: 304
+
+[11/03/2025 20:51:48] Request: GET /Css/style.css
+[11/03/2025 20:51:48] Response: 304
+
+[11/03/2025 20:51:48] Request: GET /Jobs
+[11/03/2025 20:51:48] Response: 200
+
+[11/03/2025 20:51:49] Request: GET /Css/user.css
+[11/03/2025 20:51:49] Response: 304
+
+[11/03/2025 20:51:50] Request: GET /Users/GetAllUsers
+[11/03/2025 20:51:50] Response: 200
+
+[11/03/2025 20:52:08] Request: GET /Html/user.html
+[11/03/2025 20:52:08] Response: 304
+
+[11/03/2025 20:52:08] Request: GET /Css/user.css
+[11/03/2025 20:52:08] Response: 200
+
+[11/03/2025 20:52:08] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:08] Response: 200
+
+[11/03/2025 20:52:17] Request: GET /Html/user.html
+[11/03/2025 20:52:17] Response: 304
+
+[11/03/2025 20:52:17] Request: GET /Css/user.css
+[11/03/2025 20:52:17] Response: 200
+
+[11/03/2025 20:52:17] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:17] Response: 200
+
+[11/03/2025 20:52:28] Request: GET /Html/user.html
+[11/03/2025 20:52:28] Response: 304
+
+[11/03/2025 20:52:28] Request: GET /Js/user.js
+[11/03/2025 20:52:28] Response: 304
+
+[11/03/2025 20:52:28] Request: GET /Css/user.css
+[11/03/2025 20:52:28] Response: 200
+
+[11/03/2025 20:52:28] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:28] Response: 200
+
+[11/03/2025 20:52:32] Request: GET /Html/index.html
+[11/03/2025 20:52:32] Response: 304
+
+[11/03/2025 20:52:32] Request: GET /Jobs
+[11/03/2025 20:52:32] Response: 200
+
+[11/03/2025 20:52:35] Request: GET /Css/user.css
+[11/03/2025 20:52:35] Response: 304
+
+[11/03/2025 20:52:35] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:35] Response: 200
+
+[11/03/2025 20:52:48] Request: GET /Html/user.html
+[11/03/2025 20:52:48] Response: 304
+
+[11/03/2025 20:52:48] Request: GET /Css/user.css
+[11/03/2025 20:52:48] Response: 200
+
+[11/03/2025 20:52:48] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:48] Response: 200
+
+[11/03/2025 20:52:51] Request: GET /Css/style.css
+[11/03/2025 20:52:51] Response: 304
+
+[11/03/2025 20:52:51] Request: GET /Jobs
+[11/03/2025 20:52:51] Response: 200
+
+[11/03/2025 20:52:52] Request: GET /Css/user.css
+[11/03/2025 20:52:52] Response: 304
+
+[11/03/2025 20:52:52] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:53] Response: 200
+
+[11/03/2025 20:52:54] Request: GET /Jobs
+[11/03/2025 20:52:55] Response: 200
+
+[11/03/2025 20:52:55] Request: GET /Css/user.css
+[11/03/2025 20:52:55] Response: 304
+
+[11/03/2025 20:52:55] Request: GET /Users/GetAllUsers
+[11/03/2025 20:52:56] Response: 200
+
+[11/03/2025 20:53:30] Request: GET /Html/index.html
+[11/03/2025 20:53:30] Response: 304
+
+[11/03/2025 20:53:30] Request: GET /Js/app.js
+[11/03/2025 20:53:30] Response: 304
+
+[11/03/2025 20:53:30] Request: GET /Jobs
+[11/03/2025 20:53:31] Response: 200
+
+[11/03/2025 20:53:32] Request: GET /Html/user.html
+[11/03/2025 20:53:32] Response: 304
+
+[11/03/2025 20:53:32] Request: GET /Css/user.css
+[11/03/2025 20:53:32] Response: 304
+
+[11/03/2025 20:53:32] Request: GET /Users/GetAllUsers
+[11/03/2025 20:53:32] Response: 200
+
+[11/03/2025 20:53:41] Request: GET /Jobs
+[11/03/2025 20:53:41] Response: 200
+
+[11/03/2025 20:53:42] Request: GET /Css/user.css
+[11/03/2025 20:53:42] Response: 304
+
+[11/03/2025 20:53:42] Request: GET /Users/GetAllUsers
+[11/03/2025 20:53:42] Response: 200
+
+[11/03/2025 20:54:48] Request: GET /Html/user.html
+[11/03/2025 20:54:48] Response: 200
+
+[11/03/2025 20:54:48] Request: GET /Css/user.css
+[11/03/2025 20:54:48] Response: 304
+
+[11/03/2025 20:54:48] Request: GET /Users/GetAllUsers
+[11/03/2025 20:54:48] Response: 200
+
+[11/03/2025 20:54:50] Request: GET /Html/index.html
+[11/03/2025 20:54:50] Response: 200
+
+[11/03/2025 20:54:50] Request: GET /Css/style.css
+[11/03/2025 20:54:50] Response: 304
+
+[11/03/2025 20:54:51] Request: GET /Jobs
+[11/03/2025 20:54:51] Response: 200
+
+[11/03/2025 20:54:52] Request: GET /Html/user.html
+[11/03/2025 20:54:52] Response: 304
+
+[11/03/2025 20:54:53] Request: GET /Users/GetAllUsers
+[11/03/2025 20:54:53] Response: 200
+
+[11/03/2025 20:56:08] Request: GET /Html/user.html
+[11/03/2025 20:56:08] Response: 200
+
+[11/03/2025 20:56:08] Request: GET /Js/user.js
+[11/03/2025 20:56:08] Request: GET /Css/user.css
+[11/03/2025 20:56:08] Response: 304
+
+[11/03/2025 20:56:08] Response: 304
+
+[11/03/2025 20:56:09] Request: GET /Users/GetAllUsers
+[11/03/2025 20:56:09] Response: 200
+
+[11/03/2025 20:56:47] Request: GET /Html/user.html
+[11/03/2025 20:56:47] Response: 304
+
+[11/03/2025 20:56:47] Request: GET /Css/user.css
+[11/03/2025 20:56:47] Response: 200
+
+[11/03/2025 20:56:47] Request: GET /Users/GetAllUsers
+[11/03/2025 20:56:47] Response: 200
+
+[11/03/2025 20:57:03] Request: GET /Html/user.html
+[11/03/2025 20:57:03] Response: 304
+
+[11/03/2025 20:57:03] Request: GET /Css/user.css
+[11/03/2025 20:57:03] Response: 200
+
+[11/03/2025 20:57:03] Request: GET /Users/GetAllUsers
+[11/03/2025 20:57:04] Response: 200
+
+[11/03/2025 20:57:06] Request: GET /Html/index.html
+[11/03/2025 20:57:06] Response: 304
+
+[11/03/2025 20:57:06] Request: GET /Css/style.css
+[11/03/2025 20:57:06] Request: GET /Js/app.js
+[11/03/2025 20:57:06] Response: 304
+
+[11/03/2025 20:57:06] Response: 304
+
+[11/03/2025 20:57:06] Request: GET /Jobs
+[11/03/2025 20:57:06] Response: 200
+
+[11/03/2025 20:57:07] Request: GET /Css/user.css
+[11/03/2025 20:57:07] Response: 304
+
+[11/03/2025 20:57:07] Request: GET /Users/GetAllUsers
+[11/03/2025 20:57:07] Response: 200
+
+[11/03/2025 21:00:32] Request: GET /Html/user.html
+[11/03/2025 21:00:32] Response: 304
+
+[11/03/2025 21:00:32] Request: GET /Js/user.js
+[11/03/2025 21:00:32] Response: 304
+
+[11/03/2025 21:00:32] Request: GET /Css/user.css
+[11/03/2025 21:00:32] Response: 200
+
+[11/03/2025 21:00:32] Request: GET /Users/GetAllUsers
+[11/03/2025 21:00:32] Response: 200
+
+[11/03/2025 21:00:37] Request: GET /Html/user.html
+[11/03/2025 21:00:37] Response: 200
+
+[11/03/2025 21:00:37] Request: GET /Css/user.css
+[11/03/2025 21:00:37] Request: GET /Js/user.js
+[11/03/2025 21:00:37] Response: 200
+
+[11/03/2025 21:00:37] Response: 200
+
+[11/03/2025 21:00:37] Request: GET /favicon.ico
+[11/03/2025 21:00:37] Response: 404
+
+[11/03/2025 21:00:37] Request: GET /Users/GetAllUsers
+[11/03/2025 21:00:37] Response: 200
+
+[11/03/2025 21:00:41] Request: GET /Html/login.html
+[11/03/2025 21:00:41] Response: 200
+
+[11/03/2025 21:00:41] Request: GET /Js/login.js
+[11/03/2025 21:00:41] Response: 200
+
+[11/03/2025 21:00:41] Request: GET /Css/login.css
+[11/03/2025 21:00:41] Response: 200
+
+[11/03/2025 21:00:41] Request: GET /favicon.ico
+[11/03/2025 21:00:41] Response: 404
+
+[11/03/2025 21:00:52] Request: POST /Login
+[11/03/2025 21:00:52] Response: 200
+
+[11/03/2025 21:00:52] Request: GET /Html/index.html
+[11/03/2025 21:00:53] Response: 304
+
+[11/03/2025 21:00:53] Request: GET /Css/style.css
+[11/03/2025 21:00:53] Request: GET /Js/app.js
+[11/03/2025 21:00:53] Response: 304
+
+[11/03/2025 21:00:53] Response: 304
+
+[11/03/2025 21:00:53] Request: GET /Jobs
+[11/03/2025 21:00:53] Response: 200
+
+[11/03/2025 21:00:55] Request: GET /Html/login.html
+[11/03/2025 21:00:55] Response: 304
+
+[11/03/2025 21:00:55] Request: GET /Css/login.css
+[11/03/2025 21:00:55] Response: 304
+
+[11/03/2025 21:01:01] Request: POST /Login
+[11/03/2025 21:01:01] Response: 401
+
+[11/03/2025 21:01:04] Request: GET /Jobs
+[11/03/2025 21:01:04] Response: 200
+
+[11/03/2025 21:01:16] Request: GET /Html/login.html
+[11/03/2025 21:01:16] Response: 304
+
+[11/03/2025 21:01:16] Request: GET /Css/login.css
+[11/03/2025 21:01:16] Response: 304
+
+[11/03/2025 21:01:22] Request: GET /Html/login.html
+[11/03/2025 21:01:22] Response: 304
+
+[11/03/2025 21:01:22] Request: GET /Css/login.css
+[11/03/2025 21:01:22] Response: 304
+
+[11/03/2025 21:02:15] Request: GET /Html/login.html
+[11/03/2025 21:02:15] Response: 200
+
+[11/03/2025 21:02:15] Request: GET /Css/login.css
+[11/03/2025 21:02:15] Response: 304
+
+[11/03/2025 21:02:52] Request: GET /Html/login.html
+[11/03/2025 21:02:52] Response: 304
+
+[11/03/2025 21:02:52] Request: GET /Css/login.css
+[11/03/2025 21:02:52] Response: 200
+
+[11/03/2025 21:03:03] Request: GET /Html/login.html
+[11/03/2025 21:03:03] Response: 304
+
+[11/03/2025 21:03:03] Request: GET /Css/login.css
+[11/03/2025 21:03:03] Response: 200
+
+[11/03/2025 21:03:21] Request: GET /Html/login.html
+[11/03/2025 21:03:21] Response: 200
+
+[11/03/2025 21:03:21] Request: GET /Css/login.css
+[11/03/2025 21:03:21] Response: 304
+
+[11/03/2025 21:04:51] Request: GET /Html/index.html
+[11/03/2025 21:04:51] Response: 304
+
+[11/03/2025 21:04:51] Request: GET /Css/style.css
+[11/03/2025 21:04:51] Request: GET /Js/app.js
+[11/03/2025 21:04:51] Response: 304
+
+[11/03/2025 21:04:51] Response: 304
+
+[11/03/2025 21:04:51] Request: GET /Jobs
+[11/03/2025 21:04:51] Response: 200
+
+[11/03/2025 21:04:52] Request: GET /Html/login.html
+[11/03/2025 21:04:52] Response: 304
+
+[11/03/2025 21:04:52] Request: GET /Css/login.css
+[11/03/2025 21:04:52] Response: 200
+
+[11/03/2025 21:05:18] Request: GET /Html/login.html
+[11/03/2025 21:05:18] Response: 304
+
+[11/03/2025 21:05:18] Request: GET /Css/login.css
+[11/03/2025 21:05:18] Response: 200
+
+[11/03/2025 21:05:33] Request: GET /Html/login.html
+[11/03/2025 21:05:33] Response: 304
+
+[11/03/2025 21:05:34] Request: GET /Css/login.css
+[11/03/2025 21:05:34] Response: 304
+
+[11/03/2025 21:05:47] Request: POST /Login
+[11/03/2025 21:05:47] Response: 200
+
+[11/03/2025 21:05:48] Request: GET /Jobs
+[11/03/2025 21:05:48] Response: 200
+
+[11/03/2025 21:07:58] Request: GET /Html/index.html
+[11/03/2025 21:07:58] Response: 304
+
+[11/03/2025 21:07:58] Request: GET /Css/style.css
+[11/03/2025 21:07:58] Response: 304
+
+[11/03/2025 21:07:58] Request: GET /Jobs
+[11/03/2025 21:07:58] Response: 200
+
+[11/03/2025 21:15:53] Request: GET /Html/index.html
+[11/03/2025 21:15:53] Response: 304
+
+[11/03/2025 21:15:53] Request: GET /Css/style.css
+[11/03/2025 21:15:53] Response: 200
+
+[11/03/2025 21:15:53] Request: GET /Js/app.js
+[11/03/2025 21:15:53] Response: 200
+
+[11/03/2025 21:15:53] Request: GET /Jobs
+[11/03/2025 21:15:53] Response: 200
+
+[11/03/2025 21:15:56] Request: GET /Html/user.html
+[11/03/2025 21:15:56] Response: 304
+
+[11/03/2025 21:15:56] Request: GET /Css/user.css
+[11/03/2025 21:15:56] Response: 200
+
+[11/03/2025 21:15:56] Request: GET /Js/user.js
+[11/03/2025 21:15:56] Response: 200
+
+[11/03/2025 21:15:57] Request: GET /Users
+[11/03/2025 21:15:57] Response: 200
+
+[11/03/2025 21:16:05] Request: GET /Jobs
+[11/03/2025 21:16:05] Response: 200
+
+[11/03/2025 21:16:16] Request: PUT /Jobs/11
+[11/03/2025 21:16:16] Response: 201
+
+[11/03/2025 21:16:16] Request: GET /Jobs
+[11/03/2025 21:16:16] Response: 200
+
+[11/03/2025 21:16:24] Request: PUT /Jobs/11
+[11/03/2025 21:16:24] Response: 201
+
+[11/03/2025 21:16:24] Request: GET /Jobs
+[11/03/2025 21:16:24] Response: 200
+
+[11/03/2025 21:16:31] Request: GET /Js/user.js
+[11/03/2025 21:16:31] Request: GET /Css/user.css
+[11/03/2025 21:16:31] Response: 304
+
+[11/03/2025 21:16:31] Response: 304
+
+[11/03/2025 21:16:31] Request: GET /Users
+[11/03/2025 21:16:31] Response: 200
+
+[11/03/2025 21:16:37] Request: PUT /Users/user789
+[11/03/2025 21:16:37] Response: 201
+
+[11/03/2025 21:16:37] Request: POST /Login
+[11/03/2025 21:16:37] Response: 200
+
+[11/03/2025 21:16:37] Request: GET /Users
+[11/03/2025 21:16:37] Response: 200
+
+[11/03/2025 21:16:46] Request: GET /Css/user.css
+[11/03/2025 21:16:46] Response: 304
+
+[11/03/2025 21:16:46] Request: GET /Users
+[11/03/2025 21:16:46] Response: 200
+
+[11/03/2025 21:16:52] Request: PUT /Users/user7891
+[11/03/2025 21:16:52] Response: 201
+
+[11/03/2025 21:16:52] Request: POST /Login
+[11/03/2025 21:16:52] Response: 200
+
+[11/03/2025 21:16:52] Request: GET /Users
+[11/03/2025 21:16:52] Response: 200
+
+[11/03/2025 21:16:58] Request: GET /Css/user.css
+[11/03/2025 21:16:58] Response: 304
+
+[11/03/2025 21:16:58] Request: GET /Users
+[11/03/2025 21:16:58] Response: 200
+
+[11/03/2025 21:17:01] Request: PUT /Users/user789
+[11/03/2025 21:17:01] Response: 201
+
+[11/03/2025 21:17:01] Request: POST /Login
+[11/03/2025 21:17:01] Response: 200
+
+[11/03/2025 21:17:02] Request: GET /Users
+[11/03/2025 21:17:02] Response: 200
+
+[11/03/2025 21:18:40] Request: GET /Html/user.html
+[11/03/2025 21:18:40] Response: 304
+
+[11/03/2025 21:18:40] Request: GET /Css/user.css
+[11/03/2025 21:18:40] Response: 304
+
+[11/03/2025 21:18:40] Request: GET /Js/user.js
+[11/03/2025 21:18:40] Response: 200
+
+[11/03/2025 21:18:40] Request: GET /Users
+[11/03/2025 21:18:41] Response: 200
+
+[11/03/2025 21:18:51] Request: GET /Html/user.html
+[11/03/2025 21:18:51] Response: 304
+
+[11/03/2025 21:18:51] Request: GET /Js/user.js
+[11/03/2025 21:18:51] Response: 304
+
+[11/03/2025 21:18:51] Request: GET /Users
+[11/03/2025 21:18:52] Response: 200
+
+[11/03/2025 21:18:56] Request: PUT /Users/user789
+[11/03/2025 21:18:56] Response: 201
+
+[11/03/2025 21:18:56] Request: POST /Login
+[11/03/2025 21:18:56] Response: 200
+
+[11/03/2025 21:18:56] Request: GET /Users
+[11/03/2025 21:18:56] Response: 200
+
+[11/03/2025 21:19:05] Request: PUT /Users/user7891
+[11/03/2025 21:19:05] Response: 201
+
+[11/03/2025 21:19:05] Request: POST /Login
+[11/03/2025 21:19:05] Response: 200
+
+[11/03/2025 21:19:05] Request: GET /Users
+[11/03/2025 21:19:05] Response: 200
+
+[11/03/2025 21:20:26] Request: GET /Html/user.html
+[11/03/2025 21:20:26] Response: 304
+
+[11/03/2025 21:20:26] Request: GET /Css/user.css
+[11/03/2025 21:20:26] Request: GET /Js/user.js
+[11/03/2025 21:20:26] Response: 304
+
+[11/03/2025 21:20:26] Response: 304
+
+[11/03/2025 21:20:26] Request: GET /Users
+[11/03/2025 21:20:26] Response: 200
+
+[11/03/2025 21:20:31] Request: GET /Html/index.html
+[11/03/2025 21:20:31] Response: 304
+
+[11/03/2025 21:20:31] Request: GET /Css/style.css
+[11/03/2025 21:20:31] Request: GET /Js/app.js
+[11/03/2025 21:20:31] Response: 304
+
+[11/03/2025 21:20:31] Response: 304
+
+[11/03/2025 21:20:31] Request: GET /Jobs
+[11/03/2025 21:20:31] Response: 200
+
+[11/03/2025 21:21:25] Request: GET /Css/user.css
+[11/03/2025 21:21:25] Request: GET /Js/user.js
+[11/03/2025 21:21:25] Response: 304
+
+[11/03/2025 21:21:25] Response: 304
+
+[11/03/2025 21:21:25] Request: GET /Users
+[11/03/2025 21:21:25] Response: 200
+
+[11/03/2025 21:22:00] Request: GET /Css/style.css
+[11/03/2025 21:22:00] Request: GET /Js/app.js
+[11/03/2025 21:22:00] Response: 304
+
+[11/03/2025 21:22:00] Response: 304
+
+[11/03/2025 21:22:00] Request: GET /Jobs
+[11/03/2025 21:22:00] Response: 200
+
+[11/03/2025 21:22:05] Request: GET /Js/user.js
+[11/03/2025 21:22:05] Response: 304
+
+[11/03/2025 21:22:05] Request: GET /Users
+[11/03/2025 21:22:05] Response: 200
+
+[11/03/2025 21:29:57] Request: GET /Html/index.html
+[11/03/2025 21:29:57] Response: 304
+
+[11/03/2025 21:29:57] Request: GET /Css/style.css
+[11/03/2025 21:29:57] Request: GET /Js/app.js
+[11/03/2025 21:29:57] Response: 304
+
+[11/03/2025 21:29:57] Response: 304
+
+[11/03/2025 21:29:58] Request: GET /Jobs
+[11/03/2025 21:29:58] Response: 200
+
+[11/03/2025 21:35:30] Request: GET /Html/index.html
+[11/03/2025 21:35:30] Response: 304
+
+[11/03/2025 21:35:30] Request: GET /Css/style.css
+[11/03/2025 21:35:30] Request: GET /Js/app.js
+[11/03/2025 21:35:30] Response: 304
+
+[11/03/2025 21:35:30] Response: 304
+
+[11/03/2025 21:35:30] Request: GET /Jobs
+[11/03/2025 21:35:30] Response: 200
+
+[11/03/2025 21:36:21] Request: GET /Html/index.html
+[11/03/2025 21:36:21] Response: 304
+
+[11/03/2025 21:36:21] Request: GET /Jobs
+[11/03/2025 21:36:21] Response: 200
+
+[11/03/2025 21:36:34] Request: GET /Jobs
+[11/03/2025 21:36:34] Response: 200
+

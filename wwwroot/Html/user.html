@@ -9,10 +9,16 @@
 </head>
 
 <body>
-    <h1>Job Finder</h1>
-    <button onclick="logOut()">logOut</button>
+    <button id="logOut" onclick="logOut()">Log out</button>
+    <a id="logIn" href="../Html/login.html">Log in</a>
+    <a id="jobLink" href="../Html/index.html">All Jobs</a>
+    <h1>USER</h1>
+    
+    <button id="openAddForm" onclick="openAddForm()">Add User</button>
+    <div id="overlay" onclick="closeAddForm()"></div>
     <div id="addForm">
         <h3>Add</h3>
+        <button onclick="closeAddForm()" aria-label="Close">&#10006;</button>
         <form action="javascript:void(0);" onsubmit="addUser()">
             <input type="text" id="password" placeholder="password"><br>
             <input type="text" id="permission" placeholder="permission"><br>
@@ -21,16 +27,16 @@
         </form>
     </div>
 
-
+    <div id="overlayEdit" onclick="closeEditForm()"></div>
     <div id="editForm">
         <h3>Edit</h3>
+        <button onclick="closeEditForm()" aria-label="Close">&#10006;</button>
         <form action="javascript:void(0);" onsubmit="editUser()">
             <input type="hidden" id="current-password"><br>
             <input type="text" id="edit-password" placeholder="new password"><br>
             <input type="text" id="edit-permission" placeholder="permission"><br>
             <input type="text" id="edit-userName" placeholder="userName"><br>
             <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
 

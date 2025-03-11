@@ -1,25 +1,150 @@
-input[type='submit'],
-button,
-[aria-label] {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #222;
+}
+
+#logIn{
+    margin-right: -80%;
+    margin-top: 2%;
+}
+
+#openAddForm{
+    margin-left: 10.2%;
+}
+
+button {
+    background-color: #ff5454;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#addForm button, #editForm button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
-#editForm {
+#addForm button:hover, #editForm button:hover {
+    color: #c0392b;
+}
+
+#addForm, #editForm {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
     display: none;
+    width: 50%;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#overlay, #overlayEdit {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ff5454;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c0392b;
 }
 
 table {
-    font-family: Arial, sans-serif;
-    border: 1px solid;
+    width: 80%;
+    margin: 20px auto;
     border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 100px;
 }
 
 th {
-    background-color: #f8f8f8;
-    padding: 5px;
+    background: rgb(17, 0, 72);
+    color: white;
 }
 
-td {
-    border: 1px solid;
-    padding: 5px;
+tbody tr:hover {
+    background: #e9e9e9;
+}
+
+a {
+    display: inline-block;
+    background-color: #ff5454;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    background-color: #c0392b;
+}
+
+#buttons-container button {
+    margin: 0;
+}
+
+#counter{
+    text-align: left;
+    margin-left: 11%;
 }

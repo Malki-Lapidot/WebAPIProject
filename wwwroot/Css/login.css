@@ -24,13 +24,13 @@ h2 {
 
 label {
     display: block;
-    text-align: right;
+    text-align: left;
     margin: 10px 0 5px;
     font-weight: bold;
     color: #555;
 }
 
-input {
+input[type="text"], input[type="password"], input[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -42,7 +42,7 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background: #007bff;
+    background: #ff5454;
     color: white;
     border: none;
     border-radius: 5px;
@@ -52,6 +52,12 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #c0392b;
     transform: scale(1.05);
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
 }

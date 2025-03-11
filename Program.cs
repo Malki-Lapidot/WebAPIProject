@@ -3,9 +3,9 @@ using Serilog;
 using MyLoggerMiddleWare;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
-using WebApiProject.Services;
-using WebAPIProject.services;
+using WebAPIProject.Services;
 using WebAPIProject.Interface;
+using WebAPIProject.services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,9 +28,12 @@ builder.Services
     })
     .AddJwtBearer(cfg =>
     {
-        cfg.RequireHttpsMetadata = true;
-        //cfg.TokenValidationParameters = ITokenService.GetTokenValidationParameters();
-        cfg.TokenValidationParameters.RoleClaimType = "role";  // מוודא שהמערכת מזהה את ה-Role כמו שהוא בטוקן
+        using var provider = builder.Services.BuildServiceProvider();
+        var tokenService = provider.GetRequiredService<ITokenService>();
+        
+        var tokenParams = tokenService.GetTokenValidationParameters();
+        tokenParams.RoleClaimType = "role";
+        cfg.TokenValidationParameters = tokenParams;
     });
 
 builder.Services.AddAuthorization(cfg =>
@@ -75,6 +78,12 @@ builder.Services.AddCors(options =>
                    .AllowAnyMethod()
                    .AllowAnyHeader();
         });
+});
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(3000);
+    options.ListenLocalhost(3001, listenOptions => { listenOptions.UseHttps(); });
 });
 
 var app = builder.Build();

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Interface;
 using WebAPIProject.Models;
-using WebAPIProject.Service;
+using WebAPIProject.Services;
 
 namespace WebAPIProject.Controllers;
 [ApiController]
@@ -24,12 +24,6 @@ public class LoginController : ControllerBase
         var claims = new List<Claim>();
         var users = GeneralServise.ReadFromJsonFile(jsonFilePath, "user").Cast<User>().ToList();
         var currentUser = users.Find(x => x.Password == User.Password);
-
-        // if ((User.UserName == "Malki" && User.Password == "ML") ||
-        // (User.UserName == "Ruti" && User.Password == "RS"))
-        // {
-        //     claims.Add(new Claim("type", "SuperAdmin"));
-        // }
 
         if (currentUser == null || !currentUser.UserName.Equals(User.UserName))
         {

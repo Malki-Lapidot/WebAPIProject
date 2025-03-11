@@ -1,13 +1,8 @@
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Models;
 using WebAPIProject.Services;
-using Newtonsoft.Json;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using WebAPIProject.Interface;
-using WebAPIProject.Service;
 
 
 

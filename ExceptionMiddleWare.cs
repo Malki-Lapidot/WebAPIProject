@@ -5,7 +5,6 @@ public class ExceptionMiddleWare{
 
     public ExceptionMiddleWare(RequestDelegate next)
     {
-        Console.WriteLine("hiugbu");
         this.next = next;        
     }
 

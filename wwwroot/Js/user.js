@@ -9,10 +9,10 @@ const payload = token.split('.')[1];
 const decodedPayload = JSON.parse(atob(payload));
 currentPermission = decodedPayload.type;
 currentPassword = decodedPayload.password;
-if (currentPermission !== "SuperAdmin"||currentPermission==null)
-    document.getElementById("addForm").style.display = "none";
+if (currentPermission !== "SuperAdmin" || currentPermission == null)
+    document.getElementById("openAddForm").style.display = "none";
 else
-    document.getElementById("addForm").style.display = "block";
+    document.getElementById("openAddForm").style.display = "block";
 
 
 const logOut = () => {
@@ -48,7 +48,6 @@ const displayUsers = (UsersJson) => {
     displayCounter(UsersJson.length)
 
     const button = document.createElement('button');
-
     UsersJson.forEach(element => {
 
         //edit button
@@ -85,6 +84,16 @@ const displayUsers = (UsersJson) => {
     UsersArr = UsersJson
 }
 
+const openAddForm = () => {
+    document.getElementById("addForm").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+const closeAddForm = () => {
+    document.getElementById("addForm").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
 const addUser = () => {
     const newUser = {
         "password": (document.getElementById('password').value.trim() === "" || document.getElementById('password').value.trim() === undefined) ? null : document.getElementById('password').value.trim(),
@@ -113,9 +122,11 @@ const addUser = () => {
             document.getElementById('permission').value = ""
             document.getElementById('userName').value = ""
         })
-        .catch(error => {console.error('Unable to add user.', error)
+        .catch(error => {
+            console.error('Unable to add user.', error)
             alert('Unable to add user.')
         });
+    closeAddForm()
 }
 
 const deleteUser = (password) => {
@@ -133,7 +144,8 @@ const deleteUser = (password) => {
             }
         })
         .then(() => getUsers())
-        .catch(error => {console.error('Unable to delete user.', error)
+        .catch(error => {
+            console.error('Unable to delete user.', error)
             alert('Unable to delete user.')
         });
 }
@@ -149,6 +161,7 @@ const displayEditForm = (password) => {
     document.getElementById('edit-permission').value = UserToEdit.permission
     document.getElementById('edit-userName').value = UserToEdit.userName
     document.getElementById('editForm').style.display = 'block'
+    document.getElementById("overlayEdit").style.display = "block";
 }
 
 const editUser = () => {
@@ -182,25 +195,28 @@ const editUser = () => {
                     .then((res) => {
                         localStorage.setItem("Token", res)
                     })
-                    .catch(error => {console.error('Unable to connect.', error)
+                    .catch(error => {
+                        console.error('Unable to connect.', error)
                         alert('Unable to connect.')
                     });
             }
         })
         .then(() => getUsers())
-        .catch(error => {console.error('Unable to update user.', error)
+        .catch(error => {
+            console.error('Unable to update user.', error)
             alert('Unable to update user.')
         });
 
-    closeInput();
+    closeEditForm();
     return false;
 }
 
-const closeInput = () => {
-    document.getElementById('editForm').style.display = 'none'
+const closeEditForm = () => {
+    document.getElementById('editForm').style.display = 'none';
+    document.getElementById('overlayEdit').style.display = 'none';
 }
 
 const displayCounter = (itemCount) => {
     let counter = document.getElementById('counter')
-    counter.innerHTML = itemCount
+    counter.innerHTML = `The count of user: ${itemCount}`
 }

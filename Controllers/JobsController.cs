@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Models;
 using WebAPIProject.Interface;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
-using WebAPIProject.Service;
+using WebAPIProject.Services;
 
 namespace WebAPIProject.Controllers;
 
@@ -61,8 +60,7 @@ public class JobsController : ControllerBase
         if (type.Equals("SuperAdmin") || (type.Equals("Admin") && JobFinderService.Get(id).CreatedBy.Equals(password)))
         {
             if (id != newJob.JobID)
-            {
-                
+            {               
                 return BadRequest("Not Valid Job Id!!!");
             }
             var jobToUpdate = JobFinderService.Get(id);

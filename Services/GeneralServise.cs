@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebAPIProject.Models;
 
-namespace WebAPIProject.Service;
+namespace WebAPIProject.Services;
 
 public static class GeneralServise
 {
-    //read from user json
     public static List<Object> ReadFromJsonFile(string jsonFilePath, string kind)
     {
         if (!File.Exists(jsonFilePath))
@@ -30,7 +29,6 @@ public static class GeneralServise
             throw new ArgumentException("Invalid kind specified. Expected 'user' or 'job'.");
         }
     }
-    //function to write to json file
     public static ActionResult WriteToJsonFile(string jsonFilePath,Object newObject,string kind)
     {
         if (!File.Exists(jsonFilePath))

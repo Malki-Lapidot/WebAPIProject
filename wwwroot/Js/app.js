@@ -4,6 +4,7 @@ let JobsArr = [];
 let currentPermission = null;
 let currentPassword = null;
 
+document.getElementById("addForm").style.display = "none";
 let token = localStorage.getItem("Token");
 if (token == null) {
     document.getElementById("logOut").style.display = "none";
@@ -15,10 +16,12 @@ else {
     currentPermission = decodedPayload.type;
     currentPassword = decodedPayload.password;
 }
-if (currentPermission === "User"||currentPermission==null)
-    document.getElementById("addForm").style.display = "none";
+if (currentPermission === "User" || currentPermission == null)
+    document.getElementById("openAddForm").style.display = "none";
 else
-    document.getElementById("addForm").style.display = "block";
+    document.getElementById("openAddForm").style.display = "block";
+
+    
 
 const logOut = () => {
     localStorage.removeItem("Token")
@@ -29,13 +32,13 @@ const getItems = () => {
     fetch(url)
         .then(Response => Response.json())
         .then(Data => displayItems(Data))
-        .catch(error => {console.error('Unable to get job.', error)
+        .catch(error => {
+            console.error('Unable to get job.', error)
             alert('Unable to get job.')
         })
 }
 
 const displayItems = (JobsJson) => {
-    console.log(JobsJson)
     const tbody = document.getElementById('Jobs');
     tbody.innerHTML = '';
 
@@ -88,6 +91,18 @@ const displayItems = (JobsJson) => {
     JobsArr = JobsJson
 }
 
+const openAddForm = () => {
+    document.getElementById("addForm").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+
+}
+
+const closeAddForm = () => {
+    document.getElementById("addForm").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+
+}
+
 const addItem = () => {
     const newJob = {
         "location": (document.getElementById('Location').value.trim() === "" || document.getElementById('Location').value.trim() === undefined) ? null : document.getElementById('Location').value.trim(),
@@ -120,9 +135,11 @@ const addItem = () => {
             document.getElementById('JobDescription').value = ""
             document.getElementById('PostedDate').value = ""
         })
-        .catch(error => {console.error('Unable to add job.', error)
+        .catch(error => {
+            console.error('Unable to add job.', error)
             alert('Unable to add job.')
         });
+    closeAddForm();
 }
 
 const displayEditForm = (id) => {
@@ -137,7 +154,9 @@ const displayEditForm = (id) => {
     document.getElementById('edit-Sallery').value = JobToEdit.sallery
     document.getElementById('edit-JobDescription').value = JobToEdit.jobDescription
     document.getElementById('edit-PostedDate').value = JobToEdit.postedDate
+    document.getElementById('edit-CreatedBy').value = JobToEdit.createdBy
     document.getElementById('editForm').style.display = 'block'
+    document.getElementById("overlayEdit").style.display = "block";
 }
 
 const editItem = () => {
@@ -148,7 +167,8 @@ const editItem = () => {
         JobFieldCategory: document.getElementById('edit-JobFieldCategory').value.trim(),
         Sallery: document.getElementById('edit-Sallery').value.trim(),
         JobDescription: document.getElementById('edit-JobDescription').value.trim(),
-        PostedDate: document.getElementById('edit-PostedDate').value.trim()
+        PostedDate: document.getElementById('edit-PostedDate').value.trim(),
+        CreatedBy: document.getElementById('edit-CreatedBy').value.trim()
     };
 
     fetch(`${url}/${itemId}`, {
@@ -161,10 +181,11 @@ const editItem = () => {
         body: JSON.stringify(item)
     })
         .then(() => getItems())
-        .catch(error => {console.error('Unable to update job.', error)
+        .catch(error => {
+            console.error('Unable to update job.', error)
             alert('Unable to update job.')
         });
-    closeInput();
+    closeEditForm();
     return false;
 }
 
@@ -177,16 +198,18 @@ const deleteItem = (id) => {
         },
     })
         .then(() => getItems())
-        .catch(error => {console.error('Unable to delete job.', error)
+        .catch(error => {
+            console.error('Unable to delete job.', error)
             alert('Unable to delete job.')
         });
 }
 
-const closeInput = () => {
-    document.getElementById('editForm').style.display = 'none'
+const closeEditForm = () => {
+    document.getElementById('editForm').style.display = 'none';
+    document.getElementById("overlayEdit").style.display = "none";
 }
 
 const displayCounter = (itemCount) => {
     let counter = document.getElementById('counter')
-    counter.innerHTML = itemCount
+    counter.innerHTML = `The count of jobs: ${itemCount}`
 }

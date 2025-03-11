@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebAPIProject.Interface;
 using WebAPIProject.Models;
-using WebAPIProject.Service;
+using WebAPIProject.Services;
 
 namespace WebAPIProject.services
 {

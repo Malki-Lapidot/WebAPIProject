@@ -1,14 +1,10 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using WebAPIProject.Interface;
 using WebAPIProject.Models;
-using WebAPIProject.Service;
 
 
-namespace WebAPIProject.services
+namespace WebAPIProject.Services
 {
 
     public class JobsService : IJobFinderService
